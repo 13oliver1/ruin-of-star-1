@@ -4,19 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "a6b1600735ae9f5a",
+        "id": "df532844335c5bc2",
         "type": "tabs",
+        "dimension": 50,
         "children": [
           {
-            "id": "521bd72608cb66a5",
+            "id": "645f7f7ba7c81ef0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "社会系统.md",
+                "file": "过去的纪元.md",
                 "mode": "source",
                 "source": false
               }
+            }
+          }
+        ]
+      },
+      {
+        "id": "c621deda59cd3012",
+        "type": "tabs",
+        "dimension": 50,
+        "children": [
+          {
+            "id": "a2244c4cc7f8ec44",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
             }
           }
         ]
@@ -65,12 +81,12 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 260.5,
-    "collapsed": true
+    "width": 260.5
   },
   "right": {
     "id": "ae82331bdd53c55d",
@@ -86,7 +102,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "社会系统.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +118,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "社会系统.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,9 +139,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "社会系统.md"
-              }
+              "state": {}
             }
           },
           {
@@ -139,7 +151,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -157,40 +169,45 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "521bd72608cb66a5",
+  "active": "a2244c4cc7f8ec44",
   "lastOpenFiles": [
-    "大目录.md",
-    "社会系统.md",
-    "光与古之神.md",
-    "航海、契约与商业之神.md",
-    "睿密利欧.md",
-    "故事.md",
-    "天体和宇宙.md",
-    "物质界.md",
-    "高级生物.md",
-    "动物.md",
-    "人族.md",
+    "梦族.md",
     "过去的纪元.md",
-    "创世的神.md",
-    "混沌之海·虚.md",
-    "利比狄歌.md",
     "战争和守护之神.md",
-    "未命名.canvas",
+    "命运.md",
+    "航海、契约与商业之神.md",
     "神.md",
-    "睿密利欧-20240929225440163.webp",
-    "古伦比亚特.md",
-    "工匠之神.md",
-    "航海/契约/商业之神.md",
-    "未命名 2.canvas",
-    "2024-09-29.md",
     "黑夜，宇宙，背叛和复仇之神.md",
-    "爱，美，欢愉和丰收之神.md",
-    "未命名.md",
-    "未命名 1.canvas",
-    "智慧和大地之神.md",
+    "混沌之海·虚.md",
+    "创世的神.md",
+    "第二纪的故事.md",
+    "故事.md",
+    "光与古之神.md",
+    "动物.md",
+    "鳞族.md",
+    "航海、契约与商业之神-20241003163337280.webp",
+    "人族.md",
+    "兽族.md",
+    "贝利提家族.md",
+    "大目录-20241004170606893.webp",
     "白日，虚幻和光明的艺术之神.md",
+    "爱，美，欢愉和丰收之神.md",
+    "1.jpg",
+    "大目录.md",
+    "大目录-20241004165549934.webp",
+    "高级生物.md",
+    "物质界.md",
+    "OISE.md",
+    "未命名 2.md",
+    "序.md",
+    "file.md",
+    "prototype",
+    "新建文件夹",
+    "未命名.canvas",
+    "睿密利欧-20240929225440163.webp",
+    "未命名 2.canvas",
+    "未命名 1.canvas",
     "航海/契约",
-    "航海",
-    "1.jpg"
+    "航海"
   ]
 }
