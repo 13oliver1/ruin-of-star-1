@@ -4,35 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "df532844335c5bc2",
+        "id": "538c5decc588dbf5",
         "type": "tabs",
-        "dimension": 50,
+        "dimension": 65.17719568567027,
         "children": [
           {
-            "id": "645f7f7ba7c81ef0",
+            "id": "347cdd3530c94714",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "过去的纪元.md",
+                "file": "序·古老的神话.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "序·古老的神话"
             }
           }
         ]
       },
       {
-        "id": "c621deda59cd3012",
+        "id": "1996c047d129402e",
         "type": "tabs",
-        "dimension": 50,
+        "dimension": 34.82280431432974,
         "children": [
           {
-            "id": "a2244c4cc7f8ec44",
+            "id": "f720c704ee1a77bd",
             "type": "leaf",
             "state": {
               "type": "graph",
-              "state": {}
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "关系图谱"
             }
           }
         ]
@@ -55,7 +59,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
             }
           },
           {
@@ -64,13 +70,15 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#第一纪的神",
+                "query": "tag:#KRT-L523",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
             }
           },
           {
@@ -78,7 +86,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
             }
           }
         ],
@@ -86,7 +96,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 260.5
+    "width": 405.5
   },
   "right": {
     "id": "ae82331bdd53c55d",
@@ -102,6 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Excalidraw/科伦卡特家族成员树状图.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -109,7 +120,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "科伦卡特家族成员树状图.excalidraw 的反向链接列表"
             }
           },
           {
@@ -118,9 +131,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Excalidraw/科伦卡特家族成员树状图.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "科伦卡特家族成员树状图.excalidraw 的出链列表"
             }
           },
           {
@@ -131,7 +147,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
             }
           },
           {
@@ -139,7 +157,11 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Excalidraw/科伦卡特家族成员树状图.excalidraw.md"
+              },
+              "icon": "lucide-list",
+              "title": "科伦卡特家族成员树状图.excalidraw 的大纲"
             }
           },
           {
@@ -147,11 +169,13 @@
             "type": "leaf",
             "state": {
               "type": "advanced-tables-toolbar",
-              "state": {}
+              "state": {},
+              "icon": "spreadsheet",
+              "title": "Advanced Tables"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -166,41 +190,43 @@
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "omnisearch:Omnisearch": false
+      "omnisearch:Omnisearch": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "a2244c4cc7f8ec44",
+  "active": "347cdd3530c94714",
   "lastOpenFiles": [
-    "梦族.md",
-    "过去的纪元.md",
-    "战争和守护之神.md",
-    "命运.md",
-    "航海、契约与商业之神.md",
-    "神.md",
-    "黑夜，宇宙，背叛和复仇之神.md",
-    "混沌之海·虚.md",
-    "创世的神.md",
-    "第二纪的故事.md",
+    "利比狄歌.md",
+    "序·古老的神话.md",
+    "第三纪的故事.md",
     "故事.md",
-    "光与古之神.md",
-    "动物.md",
-    "鳞族.md",
-    "航海、契约与商业之神-20241003163337280.webp",
-    "人族.md",
-    "兽族.md",
-    "贝利提家族.md",
-    "大目录-20241004170606893.webp",
-    "白日，虚幻和光明的艺术之神.md",
-    "爱，美，欢愉和丰收之神.md",
-    "1.jpg",
-    "大目录.md",
-    "大目录-20241004165549934.webp",
-    "高级生物.md",
+    "2025-01-03.md",
+    "阿殊.md",
+    "占卜.md",
     "物质界.md",
-    "OISE.md",
-    "未命名 2.md",
-    "序.md",
-    "file.md",
+    "地图.md",
+    "技术.md",
+    "社会系统.md",
+    "大目录.md",
+    "克伦卡特家族.md",
+    "阿卡蒙法德.md",
+    "艾菲洛芙·兰卡斐洛.md",
+    "wellcom.md",
+    "Excalidraw/科伦卡特家族成员树状图.excalidraw.md",
+    "创世的神.md",
+    "睿密利欧.md",
+    "光与古之神.md",
+    "命运.md",
+    "黑夜，宇宙，背叛和复仇之神.md",
+    "神.md",
+    "鳞族.md",
+    "Excalidraw/Drawing 2024-11-30 14.17.42.excalidraw.md",
+    "Excalidraw/Drawing 2024-11-30 14.17.25.excalidraw.md",
+    "Excalidraw",
+    "航海、契约与商业之神-20241003163337280.webp",
+    "大目录-20241004170606893.webp",
+    "1.jpg",
+    "大目录-20241004165549934.webp",
     "prototype",
     "新建文件夹",
     "未命名.canvas",

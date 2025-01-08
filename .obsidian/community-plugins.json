@@ -10,5 +10,8 @@
   "text-extractor",
   "obsidian-style-settings",
   "obsidian-columns",
-  "multi-column-markdown"
+  "multi-column-markdown",
+  "obsidian-excalidraw-plugin",
+  "cmenu-plugin",
+  "editing-toolbar"
 ]
