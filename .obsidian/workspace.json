@@ -4,39 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "538c5decc588dbf5",
+        "id": "67ec074d500f6699",
         "type": "tabs",
-        "dimension": 65.17719568567027,
         "children": [
           {
-            "id": "347cdd3530c94714",
+            "id": "04b619b30c2a9b7a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "序·古老的神话.md",
+                "file": "SOS git.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "序·古老的神话"
-            }
-          }
-        ]
-      },
-      {
-        "id": "1996c047d129402e",
-        "type": "tabs",
-        "dimension": 34.82280431432974,
-        "children": [
-          {
-            "id": "f720c704ee1a77bd",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "关系图谱"
+              "title": "SOS git"
             }
           }
         ]
@@ -58,7 +40,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "文件列表"
@@ -70,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#KRT-L523",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -91,12 +74,12 @@
               "title": "书签"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 405.5
+    "width": 274.5,
+    "collapsed": true
   },
   "right": {
     "id": "ae82331bdd53c55d",
@@ -179,12 +162,13 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
+      "switcher:打开快速切换": false,
       "canvas:新建白板": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
@@ -194,42 +178,41 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "347cdd3530c94714",
+  "active": "04b619b30c2a9b7a",
   "lastOpenFiles": [
-    "利比狄歌.md",
-    "序·古老的神话.md",
-    "第三纪的故事.md",
-    "故事.md",
-    "2025-01-03.md",
-    "阿殊.md",
-    "占卜.md",
-    "物质界.md",
-    "地图.md",
-    "技术.md",
-    "社会系统.md",
-    "大目录.md",
-    "克伦卡特家族.md",
-    "阿卡蒙法德.md",
-    "艾菲洛芙·兰卡斐洛.md",
-    "wellcom.md",
-    "Excalidraw/科伦卡特家族成员树状图.excalidraw.md",
+    "SOS git.md",
     "创世的神.md",
-    "睿密利欧.md",
-    "光与古之神.md",
-    "命运.md",
-    "黑夜，宇宙，背叛和复仇之神.md",
+    "大目录-20241004170606893.webp",
+    "智慧和大地之神.md",
+    "OISE.md",
+    "README.md",
+    "《安南诺萨》.md",
     "神.md",
-    "鳞族.md",
-    "Excalidraw/Drawing 2024-11-30 14.17.42.excalidraw.md",
-    "Excalidraw/Drawing 2024-11-30 14.17.25.excalidraw.md",
+    "《在那遥远的幻梦之中》.md",
+    "第二纪的故事.md",
+    "第三纪的故事.md",
+    "序·古老的神话.md",
+    "A4.md",
+    "艾菲洛芙·兰卡斐洛.md",
+    "第一纪的故事.md",
+    "墨埃瑟的和歌.md",
+    "战争和守护之神.md",
+    "植物.md",
+    "命运.md",
+    "航海、契约与商业之神.md",
+    "光与古之神.md",
+    "古伦比亚特.md",
+    "file.md",
+    "2025-01-03.md",
+    "未命名.canvas",
+    "未命名 2.md",
+    "wellcom.md",
     "Excalidraw",
     "航海、契约与商业之神-20241003163337280.webp",
-    "大目录-20241004170606893.webp",
     "1.jpg",
     "大目录-20241004165549934.webp",
     "prototype",
     "新建文件夹",
-    "未命名.canvas",
     "睿密利欧-20240929225440163.webp",
     "未命名 2.canvas",
     "未命名 1.canvas",
