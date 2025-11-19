@@ -1,24 +1,84 @@
 {
   "main": {
-    "id": "178341894fb586fb",
+    "id": "979d2c4f0ab4f4bd",
     "type": "split",
     "children": [
       {
-        "id": "67ec074d500f6699",
+        "id": "3dcf4d5d97bad9b5",
         "type": "tabs",
+        "dimension": 50,
         "children": [
           {
-            "id": "04b619b30c2a9b7a",
+            "id": "09485baf3a99e2db",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SOS git.md",
-                "mode": "source",
-                "source": false
+                "file": "40 - Obsidian/主页/00. 主页.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "SOS git"
+              "title": "00. 主页"
+            }
+          },
+          {
+            "id": "ccd1e98dd6402cb7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "祷文/第三纪元的魔法概念.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "第三纪元的魔法概念"
+            }
+          },
+          {
+            "id": "410b732c154a4862",
+            "type": "leaf",
+            "state": {
+              "type": "thino_view",
+              "state": {},
+              "icon": "Memos",
+              "title": "Thino"
+            }
+          },
+          {
+            "id": "611bde6c20e2820f",
+            "type": "leaf",
+            "state": {
+              "type": "obsidian-projects",
+              "state": {},
+              "icon": "projects-icon",
+              "title": "Projects"
+            }
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "80b86cd80a3f2cdf",
+        "type": "tabs",
+        "dimension": 50,
+        "children": [
+          {
+            "id": "a85762a8affcf0bb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "墨埃瑟的和歌.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "墨埃瑟的和歌"
             }
           }
         ]
@@ -27,15 +87,16 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "96bc92664f4fb0af",
+    "id": "ab49f9047ea8879c",
     "type": "split",
     "children": [
       {
-        "id": "6ce72144414431b5",
+        "id": "563c0f5a94dff158",
         "type": "tabs",
+        "dimension": 53.6118363794604,
         "children": [
           {
-            "id": "13f31e341650d292",
+            "id": "67446afeb3cb2fc1",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -48,7 +109,7 @@
             }
           },
           {
-            "id": "3e5ee7ea03569c3b",
+            "id": "4ec69e77af3fa83e",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -65,7 +126,7 @@
             }
           },
           {
-            "id": "39d9777882f7805d",
+            "id": "72ac34760215968c",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -73,29 +134,90 @@
               "icon": "lucide-bookmark",
               "title": "书签"
             }
+          },
+          {
+            "id": "527b06066d86c1c4",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {},
+              "icon": "clock",
+              "title": "Recent Files"
+            }
+          }
+        ]
+      },
+      {
+        "id": "c3f3d1b5d735d9df",
+        "type": "tabs",
+        "dimension": 28.98172323759791,
+        "children": [
+          {
+            "id": "3da7cc8ebd3a907e",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "关系图谱"
+            }
+          }
+        ]
+      },
+      {
+        "id": "7747c43ee3412b95",
+        "type": "tabs",
+        "dimension": 17.40644038294169,
+        "children": [
+          {
+            "id": "025da4bb8648db3c",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "40 - Obsidian/主页/00. 导航.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": false
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "00. 导航"
+            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 274.5,
-    "collapsed": true
+    "width": 300
   },
   "right": {
-    "id": "ae82331bdd53c55d",
+    "id": "442ee69c8532bca6",
     "type": "split",
     "children": [
       {
-        "id": "5180d338ad619ba5",
+        "id": "a7f8c3e63a62398a",
         "type": "tabs",
+        "dimension": 29.061976549413735,
         "children": [
           {
-            "id": "8fae384b7384ef2e",
+            "id": "07fe512d7fcb8e7a",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          },
+          {
+            "id": "19a91a39c11a8621",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Excalidraw/科伦卡特家族成员树状图.excalidraw.md",
+                "file": "40 - Obsidian/主页/00. 主页.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,118 +227,150 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "科伦卡特家族成员树状图.excalidraw 的反向链接列表"
+              "title": "00. 主页 的反向链接列表"
             }
           },
           {
-            "id": "9fe659413df923d0",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "Excalidraw/科伦卡特家族成员树状图.excalidraw.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-going-out",
-              "title": "科伦卡特家族成员树状图.excalidraw 的出链列表"
-            }
-          },
-          {
-            "id": "47bf3a9b986dcc13",
+            "id": "aa73157c2397adb1",
             "type": "leaf",
             "state": {
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-tags",
               "title": "标签"
             }
           },
           {
-            "id": "579d02b3a5c89ae0",
+            "id": "918dc99aba9787e0",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
+            }
+          },
+          {
+            "id": "efc4d5ed6b378678",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/科伦卡特家族成员树状图.excalidraw.md"
+                "file": "40 - Obsidian/主页/00. 主页.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "科伦卡特家族成员树状图.excalidraw 的大纲"
+              "title": "00. 主页 的大纲"
+            }
+          }
+        ]
+      },
+      {
+        "id": "734145f4e30be57d",
+        "type": "tabs",
+        "dimension": 70.93802345058626,
+        "children": [
+          {
+            "id": "a3af0d341318cdbe",
+            "type": "leaf",
+            "state": {
+              "type": "tasks_timeline_view",
+              "state": {},
+              "icon": "calendar-clock",
+              "title": "Tasks Timeline"
             }
           },
           {
-            "id": "67c24914846efbf0",
+            "id": "87e3f56e33a53aee",
             "type": "leaf",
             "state": {
-              "type": "advanced-tables-toolbar",
+              "type": "VIEW_TYPE_LONGFORM_EXPLORER",
               "state": {},
-              "icon": "spreadsheet",
-              "title": "Advanced Tables"
+              "icon": "longform",
+              "title": "Longform"
+            }
+          },
+          {
+            "id": "5ee6d50790915b94",
+            "type": "leaf",
+            "state": {
+              "type": "zotero-annotation-view",
+              "state": {
+                "file": "40 - Obsidian/主页/00. 主页.md",
+                "itemId": -1,
+                "attachmentId": -1,
+                "follow": "zt-reader"
+              },
+              "icon": "highlighter",
+              "title": "Zotero Annotations"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
-      "graph:查看关系图谱": false,
-      "switcher:打开快速切换": false,
-      "canvas:新建白板": false,
-      "daily-notes:打开/创建今天的日记": false,
-      "templates:插入模板": false,
-      "command-palette:打开命令面板": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "omnisearch:Omnisearch": false,
+      "paperbell:Search institution": false,
+      "obsidian-projects:打开项目": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "homepage:Open homepage": false,
+      "obsidian-memos:Thino": false,
+      "templater-obsidian:Templater": false,
+      "obsidian-map-view:Open map view": false,
+      "soundscapes:Soundscapes: My Music": false,
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "command-palette:打开命令面板": false,
+      "markdown-importer:打开 Markdown 格式转换器": false,
+      "workspaces:管理工作区布局": false,
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "04b619b30c2a9b7a",
+  "active": "ccd1e98dd6402cb7",
   "lastOpenFiles": [
-    "SOS git.md",
-    "创世的神.md",
-    "大目录-20241004170606893.webp",
-    "智慧和大地之神.md",
-    "OISE.md",
-    "README.md",
-    "《安南诺萨》.md",
-    "神.md",
-    "《在那遥远的幻梦之中》.md",
-    "第二纪的故事.md",
-    "第三纪的故事.md",
-    "序·古老的神话.md",
-    "A4.md",
-    "艾菲洛芙·兰卡斐洛.md",
-    "第一纪的故事.md",
     "墨埃瑟的和歌.md",
-    "战争和守护之神.md",
-    "植物.md",
-    "命运.md",
-    "航海、契约与商业之神.md",
-    "光与古之神.md",
-    "古伦比亚特.md",
-    "file.md",
-    "2025-01-03.md",
-    "未命名.canvas",
-    "未命名 2.md",
-    "wellcom.md",
-    "Excalidraw",
-    "航海、契约与商业之神-20241003163337280.webp",
-    "1.jpg",
-    "大目录-20241004165549934.webp",
-    "prototype",
-    "新建文件夹",
-    "睿密利欧-20240929225440163.webp",
-    "未命名 2.canvas",
-    "未命名 1.canvas",
-    "航海/契约",
-    "航海"
+    "祷文/第三纪元的魔法概念.md",
+    "小小的歌/第三纪的故事.md",
+    "阿萨摩达珈.md",
+    "小小的歌/第一纪的故事.md",
+    "Cards/Concepts/未命名 2.md",
+    "Cards/Concepts/未命名 1.md",
+    "Cards/Concepts/未命名.md",
+    "祷文",
+    "40 - Obsidian/主页/00. 主页.md",
+    "小小的歌/《在那遥远的幻梦之中》.md",
+    "小小的歌/第二纪的故事.md",
+    "小小的歌/《安南诺萨》.md",
+    "Persons/Scholars/武旭同.md",
+    "Persons/00. 人物列表.md",
+    "人物/战争和守护之神.md",
+    "人物/睿密利欧.md",
+    "鳞族.md",
+    "人物/航海、契约与商业之神.md",
+    "人物/利比狄歌.md",
+    "00 - 每日日记/DailyNote/2025年08月14日.md",
+    "高级生物.md",
+    "00 - 每日日记/DailyNote/2025年02月02日.md",
+    "人物/阿卡蒙法德.md",
+    "40 - Obsidian/主页/00. 导航.md",
+    "人物/阿殊.md",
+    "Persons/Scholars/宋爽.md"
   ]
 }
