@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # PaperBell 核心配置
 
 本仓库用来同步 PaperBell 的核心配置，从而让用户能够自动更新。
@@ -81,3 +82,6 @@ git commit -m "Merge template/main, `PaperBell` is up-to-date (version: `git rev
   - `.obsidan/plugins/**/data.json`: 插件的用户配置
   - `.gitignore`: 用户自定义的忽略文件
   - `README.md`: 用户自定义的 README 文件
+=======
+总之你不该看
+>>>>>>> 2e2f26f0f88d252db275ca86a7f86b45f11f1609
