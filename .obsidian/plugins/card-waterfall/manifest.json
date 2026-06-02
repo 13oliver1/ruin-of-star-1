@@ -1,0 +1,10 @@
+{
+  "id": "card-waterfall",
+  "name": "卡片瀑布流",
+  "version": "3.0.0",
+  "minAppVersion": "0.15.0",
+  "description": "纯筛选卡片瀑布流：无搜索功能，默认显示所有笔记，通过多条件筛选（支持任意 frontmatter 属性）过滤笔记，每个标签页独立设置。",
+  "author": "Your Name",
+  "authorUrl": "",
+  "isDesktopOnly": false
+}

@@ -1,0 +1,10 @@
+{
+  "id": "persona-tendency-tracker",
+  "name": "人物倾向记录器2",
+  "version": "1.1.0",
+  "minAppVersion": "0.15.0",
+  "description": "在笔记中记录人物的多领域倾向值（-3到+3），生成可视化滑块和自然语言总结。",
+  "author": "Oliver131",
+  "authorUrl": "",
+  "isDesktopOnly": false
+}

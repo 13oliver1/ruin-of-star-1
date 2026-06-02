@@ -41,7 +41,7 @@
     }
   ],
   "zoomOnGoFromNote": 15,
-  "autoZoom": true,
+  "autoZoom": false,
   "markerClickBehavior": "replaceCurrent",
   "markerCtrlClickBehavior": "dedicatedPane",
   "markerMiddleClickBehavior": "dedicatedTab",
@@ -84,9 +84,10 @@
     }
   ],
   "mapControls": {
-    "filtersDisplayed": false,
-    "viewDisplayed": false,
-    "presetsDisplayed": false
+    "filtersDisplayed": true,
+    "viewDisplayed": true,
+    "presetsDisplayed": true,
+    "linksDisplayed": true
   },
   "maxClusterRadiusPixels": 20,
   "searchProvider": "osm",

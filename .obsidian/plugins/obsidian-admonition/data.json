@@ -2,36 +2,39 @@
   "userAdmonitions": {
     "flex": {
       "type": "flex",
-      "color": "#7d7d7d",
+      "color": "82, 110, 255",
       "icon": {
         "name": "ad",
         "type": "font-awesome"
       },
       "command": false,
       "injectColor": true,
-      "noTitle": true
+      "noTitle": true,
+      "copy": false
     },
     "col2": {
       "type": "col2",
-      "color": "#7d7d7d",
+      "color": "255, 66, 66",
       "icon": {
         "name": "ad",
         "type": "font-awesome"
       },
       "command": false,
       "injectColor": true,
-      "noTitle": true
+      "noTitle": true,
+      "copy": false
     },
     "col3": {
       "type": "col3",
-      "color": "#7d7d7d",
+      "color": "255, 186, 36",
       "icon": {
         "name": "ad",
         "type": "font-awesome"
       },
       "command": false,
       "injectColor": true,
-      "noTitle": true
+      "noTitle": true,
+      "copy": false
     },
     "translation": {
       "type": "translation",
@@ -47,14 +50,15 @@
     },
     "exp": {
       "type": "exp",
-      "color": "#7d7d7d",
+      "color": "7, 233, 195",
       "icon": {
         "name": "exclamation-circle",
         "type": "font-awesome"
       },
       "command": false,
       "injectColor": true,
-      "noTitle": true
+      "noTitle": true,
+      "copy": false
     },
     "bot": {
       "type": "bot",
@@ -68,6 +72,19 @@
       "injectColor": true,
       "noTitle": false,
       "copy": true
+    },
+    "note": {
+      "type": "note",
+      "color": "255, 182, 56",
+      "icon": {
+        "name": "angle-right",
+        "type": "font-awesome"
+      },
+      "command": false,
+      "title": null,
+      "injectColor": true,
+      "noTitle": false,
+      "copy": false
     }
   },
   "syntaxHighlight": false,
@@ -75,7 +92,7 @@
   "version": "10.3.2",
   "autoCollapse": false,
   "defaultCollapseType": "open",
-  "injectColor": true,
+  "injectColor": false,
   "parseTitles": true,
   "dropShadow": true,
   "hideEmpty": false,

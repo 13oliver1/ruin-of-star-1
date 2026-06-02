@@ -4,7 +4,8 @@
   "zoteroGroups": [
     {
       "id": 1,
-      "name": "我的文库"
+      "name": "我的文库",
+      "lastUpdate": 1771663312260
     }
   ],
   "renderCitations": true,

@@ -1,8 +1,6 @@
 [
-  "quickadd",
   "obsidian-admonition",
   "obsidian-advanced-uri",
-  "obsidian-banners",
   "homepage",
   "obsidian-memos",
   "obsidian-tasks-plugin",
@@ -20,7 +18,6 @@
   "obsidian-pandoc-reference-list",
   "obsidian-projects",
   "zotlit",
-  "soundscapes",
   "obsidian-view-mode-by-frontmatter",
   "cm-chs-patch",
   "calendar",
@@ -39,5 +36,11 @@
   "obsidian-columns",
   "omnisearch",
   "text-extractor",
-  "obsidian-excalidraw-plugin"
+  "obsidian-excalidraw-plugin",
+  "obsidian-banners",
+  "buttons",
+  "metaedit",
+  "quickadd",
+  "persona-tendency-tracker",
+  "obsidian-timeline"
 ]

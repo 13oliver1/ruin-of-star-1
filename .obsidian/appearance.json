@@ -28,12 +28,13 @@
     "【AnuPpuccin】floating-search-bar",
     "【AnuPpuccin】its-frontmatter",
     "【AnuPpuccin】minimal-cards",
-    "【AnuPpuccin】notion-cards"
+    "【AnuPpuccin】notion-cards",
+    "custom-admonitions.c21169"
   ],
   "cssTheme": "AnuPpuccin",
-  "theme": "system",
-  "baseFontSize": 14,
-  "accentColor": "#496ba2",
+  "theme": "obsidian",
+  "baseFontSize": 13,
+  "accentColor": "",
   "showViewHeader": true,
   "translucency": false,
   "baseFontSizeAction": true

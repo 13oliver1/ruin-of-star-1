@@ -46,8 +46,14 @@
     "TQ_show_task_count": "checkbox",
     "TQ_show_tree": "checkbox",
     "TQ_show_urgency": "checkbox",
-    "deathday": "date",
+    "deathday": "text",
     "w": "text",
-    "excalidraw-embeddable-theme": "text"
+    "excalidraw-embeddable-theme": "text",
+    "time": "text",
+    "othername": "multitext",
+    "name": "text",
+    "ethnicity": "text",
+    "职业": "multitext",
+    "birthday": "text"
   }
 }

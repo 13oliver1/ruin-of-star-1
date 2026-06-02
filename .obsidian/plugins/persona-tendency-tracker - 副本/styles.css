@@ -1,0 +1,145 @@
+.tendency-container {
+    margin: 1rem 0;
+}
+
+.tendency-toolbar {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 24px;
+    flex-wrap: wrap;
+}
+
+.tendency-btn {
+    background-color: var(--interactive-normal);
+    border: none;
+    border-radius: 20px;
+    padding: 6px 16px;
+    font-size: 0.85rem;
+    cursor: pointer;
+    transition: 0.2s;
+    color: var(--text-normal);
+}
+
+.tendency-btn:hover {
+    background-color: var(--interactive-hover);
+    transform: translateY(-1px);
+}
+
+/* 卡片网格 */
+.tendency-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    justify-content: flex-start;
+}
+
+.tendency-card {
+    background-color: var(--background-primary);
+    border-radius: 20px;
+    padding: 20px;
+    min-width: 280px;
+    max-width: 360px;
+    flex: 1 1 auto;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+    border: 1px solid var(--background-modifier-border);
+    transition: box-shadow 0.2s;
+}
+
+.tendency-card:hover {
+    box-shadow: 0 6px 16px rgba(0,0,0,0.1);
+}
+
+.card-domain {
+    font-size: 1.6rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    padding-bottom: 8px;
+    border-bottom: 2px solid var(--interactive-accent);
+    color: var(--text-accent);
+}
+
+.trait-list {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.trait-row {
+    width: 100%;
+}
+
+/* 双端词 + 圆圈的布局 */
+.circle-rating-dual {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5px;
+    width: 100%;
+}
+
+.end-word {
+    font-size: 0.8rem;
+    color: var(--text-muted);
+    white-space: nowrap;
+    flex-shrink: 0;
+}
+
+.left-word {
+    text-align: left;
+    min-width: 30px;
+}
+
+.right-word {
+    text-align: right;
+    min-width: 30px;
+}
+
+.circles-container {
+    display: flex;
+    gap: 2px;
+    flex: 1;
+    justify-content: center;
+}
+
+.rating-circle {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0 2px;
+    cursor: pointer;
+    transition: all 0.1s;
+    background-color: #cccccc;
+}
+
+.rating-circle:hover {
+    transform: scale(1.15);
+    opacity: 0.9;
+}
+
+.tendency-empty {
+    text-align: center;
+    padding: 48px;
+    color: var(--text-muted);
+    font-style: italic;
+    width: 100%;
+}
+
+/* 模态框内样式 */
+.batch-textarea,
+.add-domain-input,
+.add-trait-input,
+.tendency-json-editor {
+    background-color: var(--background-primary);
+    border: 1px solid var(--background-modifier-border);
+    border-radius: 8px;
+    padding: 8px 12px;
+    font-size: 0.9rem;
+}
+
+.modal-buttons {
+    display: flex;
+    justify-content: flex-end;
+    gap: 12px;
+    margin-top: 20px;
+}

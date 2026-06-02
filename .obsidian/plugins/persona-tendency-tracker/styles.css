@@ -1,0 +1,242 @@
+/* styles.css - 完整版，无边框，文字居中，列宽优化 */
+.tendency-block {
+    margin: 1rem 0;
+    border: 1px solid var(--background-modifier-border);
+    border-radius: 12px;
+    background-color: var(--background-primary);
+    padding: 16px;
+}
+
+.tendency-summary {
+    background: var(--background-secondary);
+    padding: 12px 16px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    font-size: 0.95rem;
+    border-left: 4px solid var(--interactive-accent);
+}
+
+/* 表格无边框，固定布局，列宽按百分比分配 */
+.tendency-table {
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+.tendency-table th,
+.tendency-table td {
+    border: none;               /* 完全无边框 */
+    padding: 10px 8px;
+    text-align: center;
+    vertical-align: middle;
+    word-break: break-word;     /* 长内容换行 */
+}
+
+/* 表头底部分隔线（可选，若不要可删除） */
+.tendency-table th {
+    background-color: var(--background-secondary);
+    font-weight: 600;
+    border-bottom: 1px solid var(--background-modifier-border);
+}
+
+/* 行与行之间的淡分隔线（可选，若不要可删除） */
+.tendency-table tbody tr {
+    border-bottom: 1px solid var(--background-modifier-border);
+}
+.tendency-table tbody tr:last-child {
+    border-bottom: none;
+}
+
+/* 列宽设定（百分比） */
+.tendency-table th:nth-child(1),
+.tendency-table td:nth-child(1) { width: 15%; }   /* 领域 */
+.tendency-table th:nth-child(2),
+.tendency-table td:nth-child(2) { width: 20%; }   /* 维度 */
+.tendency-table th:nth-child(3),
+.tendency-table td:nth-child(3) { width: 35%; }   /* 评分（圆圈区） */
+.tendency-table th:nth-child(4),
+.tendency-table td:nth-child(4) { width: 30%; }   /* 描述 */
+
+/* 强制所有内部元素水平居中（针对评分列中的圆圈容器） */
+.tendency-table td * {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* 可点击圆圈样式 */
+.circle-rating {
+    display: flex;
+    justify-content: center;
+    gap: 6px;
+    flex-wrap: nowrap;
+}
+
+.rating-circle {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background-color: var(--background-modifier-border);
+    cursor: pointer;
+    transition: all 0.1s ease;
+    border: 1px solid transparent;
+}
+
+.rating-circle.filled-left {
+    background-color: var(--color-red);
+}
+
+.rating-circle.filled-right {
+    background-color: var(--color-green);
+}
+
+.rating-circle.filled-center {
+    background-color: var(--color-yellow);
+}
+
+.rating-circle.active {
+    border: 2px solid var(--text-accent);
+    transform: scale(1.1);
+}
+
+.rating-circle:hover {
+    transform: scale(1.15);
+    opacity: 0.9;
+}
+
+.tendency-empty {
+    text-align: center;
+    padding: 30px;
+    color: var(--text-muted);
+}
+
+/* 添加新行按钮区域 */
+.add-row {
+    background-color: var(--background-secondary);
+}
+
+.add-cell {
+    padding: 12px !important;
+}
+
+.add-trait-btn {
+    background-color: var(--interactive-accent);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 6px 16px;
+    font-size: 0.85rem;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.add-trait-btn:hover {
+    opacity: 0.85;
+    transform: scale(1.02);
+}
+
+.add-input-container {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+    align-items: center;
+}
+
+.add-domain-input,
+.add-trait-input {
+    background-color: var(--background-primary);
+    border: 1px solid var(--background-modifier-border);
+    border-radius: 6px;
+    padding: 6px 10px;
+    font-size: 0.85rem;
+    width: 140px;
+    text-align: center;      /* 输入框内文字居中 */
+}
+
+.confirm-add-btn,
+.cancel-add-btn {
+    background-color: var(--interactive-normal);
+    border: none;
+    border-radius: 16px;
+    padding: 4px 12px;
+    cursor: pointer;
+    font-size: 0.8rem;
+}
+
+.confirm-add-btn {
+    background-color: var(--interactive-accent);
+    color: white;
+}
+
+.cancel-add-btn {
+    background-color: var(--background-modifier-error);
+    color: white;
+}
+
+.tendency-edit-btn {
+    margin-top: 16px;
+    background-color: var(--interactive-normal);
+    border: none;
+    border-radius: 6px;
+    padding: 4px 12px;
+    cursor: pointer;
+    font-size: 0.8rem;
+}
+
+.modal-buttons {
+    display: flex;
+    justify-content: flex-end;
+    gap: 12px;
+    margin-top: 16px;
+}
+
+.tendency-json-editor {
+    width: 100%;
+    background-color: var(--background-primary);
+    color: var(--text-normal);
+    border: 1px solid var(--background-modifier-border);
+    border-radius: 6px;
+    padding: 8px;
+    font-family: monospace;
+}
+
+/* 工具栏样式 */
+.tendency-toolbar {
+    margin-bottom: 16px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.add-trait-btn {
+    background-color: var(--interactive-accent);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 6px 16px;
+    font-size: 0.85rem;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.add-trait-btn:hover {
+    opacity: 0.85;
+    transform: scale(1.02);
+}
+/* 批量添加模态框样式 */
+.batch-desc {
+    font-size: 0.85rem;
+    color: var(--text-muted);
+    margin-bottom: 10px;
+}
+.batch-textarea {
+    background-color: var(--background-primary);
+    border: 1px solid var(--background-modifier-border);
+    border-radius: 6px;
+    padding: 8px;
+    font-family: monospace;
+}
+.batch-btn {
+    margin-left: 8px;
+}

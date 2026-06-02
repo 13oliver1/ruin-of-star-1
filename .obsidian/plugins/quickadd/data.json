@@ -44,10 +44,24 @@
     },
     {
       "id": "4c196a45-7fd7-44e4-81e1-77ca0a8ed850",
-      "name": "添加学者",
+      "name": "添加人之尘",
       "type": "Macro",
       "command": true,
       "macroId": "aebaddb8-d6ca-4460-b3e4-9ef9a4613ec8"
+    },
+    {
+      "id": "305e9fca-cc7b-42d5-9bf6-1caf600c95cc",
+      "name": "创造神灵",
+      "type": "Macro",
+      "command": true,
+      "macroId": "4eb6caaa-9094-4ffe-86c0-dcc6ed3e4760"
+    },
+    {
+      "id": "214f01f6-e8ff-403b-bdac-9458e0af5715",
+      "name": "创造星辰",
+      "type": "Macro",
+      "command": true,
+      "macroId": "4eb6caaa-9094-4ffe-86c0-dcc6ed3e4760"
     },
     {
       "id": "3a8c386c-c609-4ed3-b538-bc93d38dcc4a",
@@ -57,25 +71,25 @@
       "macroId": "ab5afef8-da82-4356-8c45-e7d89441273a"
     },
     {
-      "id": "17482caf-7b7c-43cf-a81d-4944cc8c19cc",
-      "name": "豆瓣读书",
-      "type": "Macro",
-      "command": true,
-      "macroId": "37101f53-b505-422d-a356-0694b31c0d67"
-    },
-    {
       "id": "e6b084c1-451d-47fb-b1df-82a93b7163a8",
       "name": "添加术语",
       "type": "Macro",
-      "command": true,
+      "command": false,
       "macroId": "e3f026bd-2ae8-4fea-aa51-8033b4bed5d5"
     },
     {
       "id": "cb4f9238-71e9-4a94-94b2-b9bae146cb6b",
       "name": "智能术语",
       "type": "Macro",
-      "command": true,
+      "command": false,
       "macroId": "da41a0be-b1a8-466c-86c8-871dfcf75915"
+    },
+    {
+      "id": "7e4607d8-3194-4fc6-ae45-cca88e69630f",
+      "name": "添加人之尘 (copy)",
+      "type": "Macro",
+      "command": true,
+      "macroId": "aebaddb8-d6ca-4460-b3e4-9ef9a4613ec8"
     }
   ],
   "macros": [
@@ -94,19 +108,19 @@
       "runOnStartup": false
     },
     {
-      "name": "添加学者",
+      "name": "添加人之尘埃",
       "id": "aebaddb8-d6ca-4460-b3e4-9ef9a4613ec8",
       "commands": [
         {
-          "name": "添加学者",
+          "name": "添加人之尘埃",
           "type": "NestedChoice",
           "id": "760fc219-b57e-4c88-839c-8f8d228db9de",
           "choice": {
             "id": "59302970-47f9-486a-85c6-4a5225207799",
-            "name": "添加学者",
+            "name": "添加人之尘埃",
             "type": "Template",
             "command": false,
-            "templatePath": "40 - Obsidian/模板/学者模板.md",
+            "templatePath": "40 - Obsidian/模板/人物模板.md",
             "fileNameFormat": {
               "enabled": true,
               "format": "{{name}}"
@@ -114,7 +128,7 @@
             "folder": {
               "enabled": true,
               "folders": [
-                "Persons/Scholars"
+                "Persons/One of dust"
               ],
               "chooseWhenCreatingNote": false,
               "createInSameFolderAsActiveFile": false,
@@ -157,7 +171,7 @@
             },
             "format": {
               "enabled": true,
-              "format": "aliases:\ngender: {{VALUE:性别}}\nbirthday:\nemail: \n- {{VALUE:邮箱}}\ntitle:\n- {{VALUE:称谓}}\nwebsite: {{VALUE:主页链接}}\nphoto: \"{{VALUE:照片链接}}\"\ntags: scholar\ninstitute:\n- {{VALUE:所在机构}}\n"
+              "format": "name:\nothername: {{VALUE:中文名字}}\ngender: {{VALUE:性别}}\nethnicity: {{VALUE:种族}}\ntime: {{VALUE:时代}}\nbirthday:\ndeathday:\nheight: {{VALUE:身高}}\nphoto:\nlover: {{VALUE:伴侣}}\nfamily: {{VALUE:家族成员}}\n所属国: {{VALUE:国籍}}\n角色编号: {{VALUE:编号}}\n简介:\n职业: {{VALUE:职业}}\ntags: oc\nbanner:\nbanner_icon:"
             },
             "insertAfter": {
               "enabled": true,
@@ -528,6 +542,118 @@
             "openFile": false,
             "openFileInMode": "default"
           }
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "添加人之尘",
+      "id": "b5f0c2f4-635b-4e1e-a689-8fde6968fae5",
+      "commands": [],
+      "runOnStartup": false
+    },
+    {
+      "name": "创造神灵",
+      "id": "4eb6caaa-9094-4ffe-86c0-dcc6ed3e4760",
+      "commands": [
+        {
+          "name": "星辰的真名是？",
+          "type": "NestedChoice",
+          "id": "4326f456-9cee-47a4-8241-65722e4d8273",
+          "choice": {
+            "id": "73d2abae-ff79-4a49-a476-6939adfd9168",
+            "name": "星辰的真名是？",
+            "type": "Template",
+            "command": false,
+            "templatePath": "40 - Obsidian/模板/群星模板.md",
+            "fileNameFormat": {
+              "enabled": true,
+              "format": "{{name}}"
+            },
+            "folder": {
+              "enabled": true,
+              "folders": [
+                "Persons/One of celestial body"
+              ],
+              "chooseWhenCreatingNote": false,
+              "createInSameFolderAsActiveFile": false,
+              "chooseFromSubfolders": false
+            },
+            "appendLink": false,
+            "openFileInNewTab": {
+              "enabled": false,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": true,
+            "openFileInMode": "source",
+            "fileExistsMode": "Nothing",
+            "setFileExistsBehavior": false
+          }
+        },
+        {
+          "name": "Wait",
+          "type": "Wait",
+          "id": "6fd5f860-35b1-4f53-bb68-46ea156e0ccb",
+          "time": 100
+        },
+        {
+          "name": "添加YAML",
+          "type": "NestedChoice",
+          "id": "4a0ccb79-3ba7-4f70-8388-fc2873b3e07c",
+          "choice": {
+            "id": "88095e99-9a5f-4d7f-8271-3c6e1181b623",
+            "name": "添加YAML",
+            "type": "Capture",
+            "command": false,
+            "appendLink": false,
+            "captureTo": "",
+            "captureToActiveFile": true,
+            "createFileIfItDoesntExist": {
+              "enabled": false,
+              "createWithTemplate": false,
+              "template": ""
+            },
+            "format": {
+              "enabled": true,
+              "format": "name: {{VALUE:名字}}\nothername: {{VALUE:其他名字}}\ngender: {{VALUE:性别}}\nethnicity: {{VALUE:种族}}\ntime: {{VALUE:时代}}\nbirthday:\ndeathday:\nGalaxy: {{VALUE:宇宙岛}}\nheight: {{VALUE:身高}}\nphoto:\nlover: {{VALUE:伴侣}}\nfamily: {{VALUE:家人}}\n角色编号:\n简介:\n备注: {{VALUE:备注}}\n职业: {{VALUE:职业}}\n特点: {{VALUE:特点}}\n爱好: {{VALUE:爱好}}\n化身: {{VALUE:化身}}\ntags: oc\nbanner:\nbanner_icon:\nfollowday:"
+            },
+            "insertAfter": {
+              "enabled": true,
+              "after": "---",
+              "insertAtEnd": false,
+              "considerSubsections": false,
+              "createIfNotFound": false,
+              "createIfNotFoundLocation": "top"
+            },
+            "prepend": false,
+            "task": false,
+            "openFileInNewTab": {
+              "enabled": false,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": false,
+            "openFileInMode": "default"
+          }
+        },
+        {
+          "name": "Wait",
+          "type": "Wait",
+          "id": "81967285-e790-408d-bcbf-ec59cce2accd",
+          "time": 100
+        },
+        {
+          "name": "切换编辑/预览视图",
+          "type": "Obsidian",
+          "id": "936eb250-6661-473b-8956-b1b6681135b1",
+          "commandId": "markdown:toggle-preview"
+        },
+        {
+          "name": "QuickAdd: 创造星辰",
+          "type": "Obsidian",
+          "id": "6cab7e27-7eb0-4322-9181-d60e717ecc25",
+          "commandId": "quickadd:choice:214f01f6-e8ff-403b-bdac-9458e0af5715"
         }
       ],
       "runOnStartup": false

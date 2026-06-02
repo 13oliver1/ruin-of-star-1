@@ -35,33 +35,12 @@
       "views": [
         {
           "config": {
-            "groupByField": "status",
             "includeFields": [
               "url",
               "start",
               "workload"
             ],
-            "columns": {
-              "计划中": {
-                "weight": 0,
-                "records": []
-              },
-              "进行中": {
-                "weight": 1,
-                "records": [
-                  "Projects/PaperBell.md"
-                ]
-              },
-              "已完成": {
-                "weight": 2,
-                "records": [
-                  "Projects/ABSESpy.md"
-                ]
-              },
-              "已归档": {
-                "weight": 3
-              }
-            }
+            "groupByField": "name"
           },
           "filter": {
             "conjunction": "and",
@@ -156,6 +135,33 @@
           "id": "081e8695-252b-422a-9008-a7415494dc76",
           "name": "图书",
           "type": "gallery"
+        },
+        {
+          "config": {
+            "coverField": "",
+            "fitStyle": "contain",
+            "includeFields": []
+          },
+          "filter": {
+            "conjunction": "and",
+            "conditions": [
+              {
+                "field": "tags",
+                "operator": "has-any-of",
+                "enabled": true,
+                "value": "[\"#oc\"]"
+              }
+            ]
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "efd5796f-f490-4316-98d0-b8afd917bc60",
+          "name": "cesh",
+          "type": "gallery"
         }
       ],
       "id": "4244e4c7-fbb9-4ca5-a794-1a557a1ad506",
@@ -247,19 +253,7 @@
           },
           "filter": {
             "conjunction": "and",
-            "conditions": [
-              {
-                "field": "path",
-                "operator": "not-contains",
-                "enabled": true,
-                "value": "日记"
-              },
-              {
-                "field": "longform",
-                "operator": "is-checked",
-                "enabled": false
-              }
-            ]
+            "conditions": []
           },
           "colors": {
             "conditions": [
@@ -529,14 +523,7 @@
           },
           "filter": {
             "conjunction": "and",
-            "conditions": [
-              {
-                "field": "path",
-                "operator": "not-contains",
-                "enabled": true,
-                "value": "日记"
-              }
-            ]
+            "conditions": []
           },
           "colors": {
             "conditions": [
