@@ -15,6 +15,8 @@
 
 在任意文件夹中，右键--有Git Bash Here菜单项。
 
+---
+
 ### **二、注册Github**
 
 创建仓库，获取SSH地址
@@ -24,6 +26,8 @@
 比如仓库名：test2415
 
 SSH地址：git@github.com:GerardDu/test2415.git
+
+---
 
 ### **三、生成本地公钥，并配置Github仓库**
 
@@ -52,6 +56,8 @@ type %userprofile%\.ssh\id_rsa.pub
 在Key字段中粘贴之前复制的公钥信息。
 
 最后，点击“Add SSH key”（添加SSH密钥）按钮。
+
+---
 
 ### **四、Git Bash中同步本地文件夹和远程仓库**
 
@@ -159,13 +165,13 @@ log.path_IS_UNDEFINED
 offline_user.md
 ```
 
-3.添加远程仓库
+#### 3.添加远程仓库
 
 git remote add origin git@github.com:GerardDu/test2415.git
 
 注：此时，不要使用git branch，即使用了也什么分支都查不到。也不建议在此时使用git checkout -b命令来创建新的分支。
 
-4.初始化分支
+#### 4.初始化分支
 
 git add .
 
@@ -173,9 +179,9 @@ git commit -m "inited"
 
 注：此时可以使用git branch，会看到有master分支，但使用命令 git branch -a是看不到远程仓库的。
 
-5.同步方式1：与github的main分支保持一致。
+#### 5.同步方式1：与github的main分支保持一致。
 
-a.拉取远程代码
+##### a.拉取远程代码
 
 此时创建新分支main，因为本地的git主分支是master，而远程的Github仓库中主分支是main。
 
@@ -195,7 +201,7 @@ git pull origin main --allow-unrelated-histories
 
 解决此问题可以在git pull命令后加入参数--allow-unrelated-histories
 
-b.推送本地代码
+##### b.推送本地代码
 
 然后执行git push -u origin main。
 
@@ -207,7 +213,7 @@ b.推送本地代码
 
 此时及以后再使用git push即可，不需要再用git push -u origin main
 
-c.此时查看分支有如下3种方式：
+##### c.此时查看分支有如下3种方式：
 
 git branch 列出所有本地分支
 
@@ -215,7 +221,9 @@ git branch -r 列出所有远程分支
 
 git branch -a 列出所有本地分支和远程分支
 
-6.同步方式2：基于master分支同步到Github仓库时同时创建master分支
+---
+
+#### 6.同步方式2：基于master分支同步到Github仓库时同时创建master分支
 
 git push 
 
