@@ -61,7 +61,7 @@
       "name": "创造星辰",
       "type": "Macro",
       "command": true,
-      "macroId": "4eb6caaa-9094-4ffe-86c0-dcc6ed3e4760"
+      "macroId": "005abae8-c4de-49ba-a467-e968caf97d47"
     },
     {
       "id": "3a8c386c-c609-4ed3-b538-bc93d38dcc4a",
@@ -83,13 +83,6 @@
       "type": "Macro",
       "command": false,
       "macroId": "da41a0be-b1a8-466c-86c8-871dfcf75915"
-    },
-    {
-      "id": "7e4607d8-3194-4fc6-ae45-cca88e69630f",
-      "name": "添加人之尘 (copy)",
-      "type": "Macro",
-      "command": true,
-      "macroId": "aebaddb8-d6ca-4460-b3e4-9ef9a4613ec8"
     }
   ],
   "macros": [
@@ -557,12 +550,12 @@
       "id": "4eb6caaa-9094-4ffe-86c0-dcc6ed3e4760",
       "commands": [
         {
-          "name": "星辰的真名是？",
+          "name": "神灵的真名是？",
           "type": "NestedChoice",
           "id": "4326f456-9cee-47a4-8241-65722e4d8273",
           "choice": {
             "id": "73d2abae-ff79-4a49-a476-6939adfd9168",
-            "name": "星辰的真名是？",
+            "name": "神灵的真名是？",
             "type": "Template",
             "command": false,
             "templatePath": "40 - Obsidian/模板/群星模板.md",
@@ -616,7 +609,7 @@
             },
             "format": {
               "enabled": true,
-              "format": "name: {{VALUE:名字}}\nothername: {{VALUE:其他名字}}\ngender: {{VALUE:性别}}\nethnicity: {{VALUE:种族}}\ntime: {{VALUE:时代}}\nbirthday:\ndeathday:\nGalaxy: {{VALUE:宇宙岛}}\nheight: {{VALUE:身高}}\nphoto:\nlover: {{VALUE:伴侣}}\nfamily: {{VALUE:家人}}\n角色编号:\n简介:\n备注: {{VALUE:备注}}\n职业: {{VALUE:职业}}\n特点: {{VALUE:特点}}\n爱好: {{VALUE:爱好}}\n化身: {{VALUE:化身}}\ntags: oc\nbanner:\nbanner_icon:\nfollowday:"
+              "format": "name: {{VALUE:名字}}\nothername: {{VALUE:其他名字}}\ngender: {{VALUE:性别}}\nethnicity: {{VALUE:种族}}\ntime: {{VALUE:时代}}\nbirthday:\ndeathday:\n象征: {{VALUE:在神秘学中其所象征的事物是？}}\nheight: {{VALUE:身高}}\nphoto:\nlover: {{VALUE:伴侣}}\nfamily: {{VALUE:家人}}\n角色编号:\n简介:\n备注: {{VALUE:备注}}\n职业: {{VALUE:神职}}\n特点: {{VALUE:特点}}\n爱好: {{VALUE:爱好}}\n权柄: {{VALUE:权柄·所执掌的能力位于哪些领域？}}\ntags: #oc #神\nbanner:\nbanner_icon:\nfollowday:"
             },
             "insertAfter": {
               "enabled": true,
@@ -650,12 +643,18 @@
           "commandId": "markdown:toggle-preview"
         },
         {
-          "name": "QuickAdd: 创造星辰",
+          "name": "QuickAdd: 创造神灵",
           "type": "Obsidian",
           "id": "6cab7e27-7eb0-4322-9181-d60e717ecc25",
           "commandId": "quickadd:choice:214f01f6-e8ff-403b-bdac-9458e0af5715"
         }
       ],
+      "runOnStartup": false
+    },
+    {
+      "name": "创造星辰",
+      "id": "005abae8-c4de-49ba-a467-e968caf97d47",
+      "commands": [],
       "runOnStartup": false
     }
   ],

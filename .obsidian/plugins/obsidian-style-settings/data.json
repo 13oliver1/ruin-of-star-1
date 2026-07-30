@@ -29,10 +29,9 @@
   "moy-link-mods@@link-shorten": true,
   "sharetype@@sharetype-color@@dark": "#74A3DF",
   "anuppuccin-theme-settings-extended@@anp-theme-ext-dark": true,
-  "anuppuccin-theme-settings-extended@@catppuccin-theme-dark-extended": "ctp-gruvbox-dark",
+  "anuppuccin-theme-settings-extended@@catppuccin-theme-dark-extended": "ctp-solarized-dark",
   "anuppuccin-custom-background@@anp-background-image-toggle": false,
   "anuppuccin-theme-settings-extended@@anp-theme-ext-light": false,
-  "anuppuccin-theme-settings-extended@@catppuccin-theme-extended": "ctp-material-mint-light",
   "anp-its-frontmatter-settings@@frontmatter-background-opacity": 0.8,
   "anuppuccin-theme-settings-extended@@anp-theme-ext-amoled": false,
   "floating-toc-styles@@enable-outline-style": "default-outline-style",
@@ -64,5 +63,6 @@
   "anuppuccin-theme-settings@@anp-toggle-scrollbars": true,
   "anuppuccin-theme-settings@@anp-header-color-toggle": true,
   "anuppuccin-theme-settings@@anp-header-margin-toggle": true,
-  "anuppuccin-theme-settings@@anp-decoration-toggle": true
+  "anuppuccin-theme-settings@@anp-decoration-toggle": true,
+  "anuppuccin-theme-settings-extended@@catppuccin-theme-extended": "ctp-atom-light"
 }

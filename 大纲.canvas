@@ -4,11 +4,11 @@
 		{"id":"96c1383ebec14d66","type":"text","text":"## 第二纪\n她的仇人，子嗣和母亲看着沉睡的她，上万年的噩梦终于酿造一场背叛。","x":-160,"y":-800,"width":250,"height":160},
 		{"id":"bc9af2cd4720a988","type":"text","text":"## 第三纪\n终结与最初的和声。\n这世界的句号，命运将其交给最初与最后之神。","x":-160,"y":-620,"width":250,"height":160},
 		{"id":"c27ee0602aa65b98","type":"text","text":"起始为万籁俱寂之声","x":-467,"y":-570,"width":250,"height":60},
-		{"id":"0b9c313ef6e20fcf","type":"text","text":"【[[序·古老的神话|止境为混沌撕裂之手]]】","x":140,"y":-570,"width":250,"height":60},
+		{"id":"0b9c313ef6e20fcf","type":"text","text":"【[[阿萨摩达珈|止境为混沌撕裂之手]]】","x":140,"y":-570,"width":250,"height":60},
 		{"id":"9212bdb9090ca7cc","type":"text","text":"局外，我们的凝视","x":140,"y":-750,"width":250,"height":60},
-		{"id":"0a7eab134c07e177","type":"text","text":"沉浸百万年痛苦亵渎之梦","x":-467,"y":-750,"width":250,"height":60},
+		{"id":"0a7eab134c07e177","type":"text","text":"[[若肆遗梦|沉浸百万年痛苦亵渎之梦]]","x":-467,"y":-750,"width":250,"height":60},
 		{"id":"c35e429d61c380d5","type":"text","text":"追逐永恒的神灵","x":140,"y":-930,"width":250,"height":60},
-		{"id":"e30d876cdd45b095","type":"text","text":"我们的狂喜与高歌，你的嘲弄和诅咒","x":-467,"y":-940,"width":250,"height":80}
+		{"id":"e30d876cdd45b095","type":"text","text":"[[Inputs/Zotero/安南诺萨|我们的狂喜与高歌，你的嘲弄和诅咒]]","x":-467,"y":-940,"width":250,"height":80}
 	],
 	"edges":[
 		{"id":"4a879b968e59eae5","fromNode":"bc9af2cd4720a988","fromSide":"left","toNode":"c27ee0602aa65b98","toSide":"right"},
