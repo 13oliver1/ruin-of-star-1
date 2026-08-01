@@ -1,0 +1,67 @@
+{
+  "items": [
+    {
+      "name": "PaperBell",
+      "type": "pandoc",
+      "arguments": "--defaults=\"${vaultDir}/40 - Obsidian/脚本/pandoc/defaults/pdf.yaml\" --resource-path=\"${currentDir}\" --resource-path=\"${currentDir}/imgs\" --resource-path=\"${attachmentFolderPath}\" -o \"${outputPath}\"",
+      "extension": ".pdf"
+    },
+    {
+      "name": "Markdown"
+    },
+    {
+      "name": "Markdown (Hugo)"
+    },
+    {
+      "name": "Html"
+    },
+    {
+      "name": "TextBundle"
+    },
+    {
+      "name": "Typst"
+    },
+    {
+      "name": "PDF"
+    },
+    {
+      "name": "Word (.docx)"
+    },
+    {
+      "name": "OpenOffice"
+    },
+    {
+      "name": "RTF"
+    },
+    {
+      "name": "Epub"
+    },
+    {
+      "name": "Latex"
+    },
+    {
+      "name": "Media Wiki"
+    },
+    {
+      "name": "reStructuredText"
+    },
+    {
+      "name": "Textile"
+    },
+    {
+      "name": "OPML"
+    },
+    {
+      "name": "Bibliography"
+    }
+  ],
+  "defaultExportDirectoryMode": "Same",
+  "openExportedFile": true,
+  "env": {},
+  "showExportProgressBar": true,
+  "lastEditName": "eisvogel",
+  "lastExportDirectory": {
+    "darwin": "/Users/songshgeo/Documents/VSCode/PaperBell/PaperBell/Outputs/demo"
+  },
+  "lastExportType": "Word (.docx)"
+}

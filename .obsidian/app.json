@@ -1,0 +1,21 @@
+{
+  "communityThemeSortOrder": "download",
+  "legacyEditor": false,
+  "livePreview": true,
+  "alwaysUpdateLinks": true,
+  "promptDelete": false,
+  "pdfExportSettings": {
+    "includeName": true,
+    "pageSize": "A4",
+    "landscape": false,
+    "margin": "2",
+    "downscalePercent": 100
+  },
+  "attachmentFolderPath": "40 - Obsidian/附件",
+  "showInlineTitle": false,
+  "propertiesInDocument": "visible",
+  "newFileLocation": "folder",
+  "newFileFolderPath": "Cards/Concepts",
+  "defaultViewMode": "preview",
+  "readableLineLength": true
+}

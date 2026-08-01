@@ -1,0 +1,13 @@
+{
+  "searchTags": [
+    "oc"
+  ],
+  "cardWidth": 280,
+  "maxPreviews": 200,
+  "displayFields": [
+    "alias",
+    "tags"
+  ],
+  "dateFormat": "YYYY-MM-DD",
+  "imageField": "firstphoto"
+}

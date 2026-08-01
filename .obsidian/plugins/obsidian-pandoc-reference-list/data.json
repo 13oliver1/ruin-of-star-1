@@ -1,0 +1,20 @@
+{
+  "pathToPandoc": "/opt/homebrew/bin/pandoc",
+  "tooltipDelay": 400,
+  "zoteroGroups": [
+    {
+      "id": 1,
+      "name": "我的文库",
+      "lastUpdate": 1771663312260
+    }
+  ],
+  "renderCitations": true,
+  "renderCitationsReadingMode": true,
+  "renderLinkCitations": true,
+  "pathToBibliography": "40 - Obsidian/mybib.bib",
+  "pullFromZotero": false,
+  "cslStyleURL": "https://raw.githubusercontent.com/citation-style-language/styles/master/ecology-and-society.csl",
+  "enableCiteKeyCompletion": true,
+  "showCitekeyTooltips": true,
+  "cslLang": "en-US"
+}

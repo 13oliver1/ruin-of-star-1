@@ -1,0 +1,71 @@
+{
+  "version": 3,
+  "projects": {},
+  "selectedDraftVaultPath": "Outputs/demo/Index.md",
+  "userScriptFolder": "40 - Obsidian/脚本/longform",
+  "sessionStorage": "file",
+  "sessions": [],
+  "showWordCountInStatusBar": true,
+  "startNewSessionEachDay": false,
+  "sessionGoal": 500,
+  "applyGoalTo": "all",
+  "notifyOnGoal": false,
+  "countDeletionsForGoal": false,
+  "keepSessionCount": 30,
+  "sessionFile": "longform-sessions.json",
+  "numberScenes": true,
+  "sceneTemplate": "40 - Obsidian/模板/学术长文本模板 Longform academic template.md",
+  "waitForSync": false,
+  "fallbackWaitEnabled": true,
+  "fallbackWaitTime": 5,
+  "workflows": {
+    "CompileWithTitledFormatters": {
+      "name": "CompileWithTitledFormatters",
+      "description": "",
+      "steps": [
+        {
+          "id": "strip-frontmatter",
+          "optionValues": {}
+        },
+        {
+          "id": "remove-links",
+          "optionValues": {
+            "remove-wikilinks": true,
+            "remove-external-links": true
+          }
+        },
+        {
+          "id": "40 - Obsidian/脚本/longform/使用title属性作为章节名.js",
+          "optionValues": {}
+        },
+        {
+          "id": "prepend-title",
+          "optionValues": {
+            "format": "$3{#} $1",
+            "separator": ""
+          }
+        },
+        {
+          "id": "concatenate-text",
+          "optionValues": {
+            "separator": "\\n\\n-----\\n\\n"
+          }
+        },
+        {
+          "id": "40 - Obsidian/脚本/longform/编译后增加头文件.js",
+          "optionValues": {
+            "title": "论文题目",
+            "author-name": "用户作者"
+          }
+        },
+        {
+          "id": "write-to-note",
+          "optionValues": {
+            "target": "一篇论文",
+            "open-after": true
+          }
+        }
+      ]
+    }
+  }
+}
