@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Inputs/Zotero/安南诺萨.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false,
                 "backlinks": false
               },
@@ -35,7 +35,7 @@
               "type": "markdown",
               "state": {
                 "file": "安南诺萨的歌.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false,
                 "backlinks": false
               },
@@ -244,7 +244,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "安南诺萨的歌.md"
+                "file": "Inputs/Zotero/安南诺萨.md"
               },
               "icon": "lucide-info",
               "title": "笔记属性"
@@ -351,10 +351,10 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "3deb55f0a5ce32d3",
+  "active": "09485baf3a99e2db",
   "lastOpenFiles": [
-    "Inputs/Zotero/安南诺萨.md",
     "安南诺萨的歌.md",
+    "Inputs/Zotero/安南诺萨.md",
     "大纲.canvas",
     "40 - Obsidian/主页/00. 主页.md",
     "未命名.md",
