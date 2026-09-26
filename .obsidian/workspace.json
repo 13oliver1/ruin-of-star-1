@@ -11,37 +11,36 @@
             "id": "09485baf3a99e2db",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "大纲.canvas",
-                "viewState": {
-                  "x": -38.5,
-                  "y": -720,
-                  "zoom": 0
-                }
+                "file": "Inputs/Zotero/安南诺萨.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "大纲"
+              "icon": "lucide-file",
+              "title": "安南诺萨"
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "c5fdd4f31a89965f",
+        "type": "tabs",
+        "children": [
           {
-            "id": "410b732c154a4862",
+            "id": "3deb55f0a5ce32d3",
             "type": "leaf",
             "state": {
-              "type": "thino_view",
-              "state": {},
-              "icon": "Memos",
-              "title": "Thino"
-            }
-          },
-          {
-            "id": "611bde6c20e2820f",
-            "type": "leaf",
-            "state": {
-              "type": "obsidian-projects",
-              "state": {},
-              "icon": "projects-icon",
-              "title": "Projects"
+              "type": "markdown",
+              "state": {
+                "file": "安南诺萨的歌.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "安南诺萨的歌"
             }
           }
         ]
@@ -106,8 +105,8 @@
             "state": {
               "type": "recent-files",
               "state": {},
-              "icon": "clock",
-              "title": "Recent Files"
+              "icon": "lucide-ghost",
+              "title": "recent-files"
             }
           }
         ]
@@ -172,8 +171,8 @@
             "state": {
               "type": "calendar",
               "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Calendar"
+              "icon": "lucide-ghost",
+              "title": "calendar"
             }
           },
           {
@@ -236,10 +235,49 @@
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "00. 主页 的大纲"
+              "title": "大纲"
+            }
+          },
+          {
+            "id": "647b09049b22e73c",
+            "type": "leaf",
+            "state": {
+              "type": "file-properties",
+              "state": {
+                "file": "安南诺萨的歌.md"
+              },
+              "icon": "lucide-info",
+              "title": "笔记属性"
+            }
+          },
+          {
+            "id": "befe1e065f0c71cb",
+            "type": "leaf",
+            "state": {
+              "type": "footnotes",
+              "state": {
+                "file": "40 - Obsidian/主页/00. 主页.md"
+              },
+              "icon": "lucide-file-signature",
+              "title": "脚注"
+            }
+          },
+          {
+            "id": "34618f69a3a03edf",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "40 - Obsidian/主页/00. 主页.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "出链"
             }
           }
-        ]
+        ],
+        "currentTab": 5
       },
       {
         "id": "734145f4e30be57d",
@@ -262,8 +300,8 @@
             "state": {
               "type": "VIEW_TYPE_LONGFORM_EXPLORER",
               "state": {},
-              "icon": "longform",
-              "title": "Longform"
+              "icon": "lucide-ghost",
+              "title": "VIEW_TYPE_LONGFORM_EXPLORER"
             }
           },
           {
@@ -289,73 +327,42 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "omnisearch:Omnisearch": false,
       "bases:新建数据库": false,
-      "paperbell:Search institution": false,
-      "obsidian-projects:打开项目": false,
       "daily-notes:打开/创建今天的日记": false,
-      "homepage:Open homepage": false,
-      "obsidian-memos:Thino": false,
-      "templater-obsidian:Templater": false,
-      "obsidian-map-view:Open map view": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
       "command-palette:打开命令面板": false,
       "markdown-importer:打开 Markdown 格式转换器": false,
       "workspaces:管理工作区布局": false,
+      "obsidian-map-view:Open map view": false,
+      "paperbell:Search institution": false,
+      "obsidian-projects:打开项目": false,
+      "templater-obsidian:Templater": false,
+      "obsidian-memos:Thino": false,
+      "homepage:Open homepage": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "omnisearch:Omnisearch": false,
+      "zk-prefixer:创建时间戳笔记": false,
+      "templates:插入模板": false,
+      "publish:发布更改": false,
+      "random-note:开始漫游笔记": false,
+      "audio-recorder:开始/结束录音": false,
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "09485baf3a99e2db",
+  "active": "3deb55f0a5ce32d3",
   "lastOpenFiles": [
-    "40 - Obsidian/主页/00. 主页.md",
     "Inputs/Zotero/安南诺萨.md",
+    "安南诺萨的歌.md",
     "大纲.canvas",
-    "Persons/GOD/GURENBATE.md",
-    "Persons/GOD/KCLOPROS.md",
-    "Persons/GOD/PHOEBEMOSYNE.md",
-    "Persons/GOD/SPERONER.md",
-    "神.md",
-    "第二纪的神.md",
-    "诅咒.canvas",
+    "40 - Obsidian/主页/00. 主页.md",
+    "未命名.md",
     "若肆遗梦.md",
-    "Persons/One of celestial body/LIBDG.md",
-    "00. 造物列表.md",
-    "第三纪的神.md",
-    "40 - Obsidian/模板/神灵模板.md",
-    "00 - 每日日记/DailyNote/2026年07月27日.md",
-    "安南诺萨.md",
+    "40 - Obsidian/音乐/calming-rain.mp3",
     "40 - Obsidian/主页/00. 导航.md",
-    "00 - 每日日记/DailyNote/2026年07月12日.md",
-    "00 - 每日日记/DailyNote/2026年07月04日.md",
-    "Inputs/Zotero/阿萨摩达珈.md",
-    "时间线模板.md",
-    "Inputs/Zotero/召唤 PGM 之力 I：阿芙洛狄忒、赫利俄斯、塞勒涅.md",
-    "Inputs/Zotero/Decoupling of SDGs followed by re-coupling as sustainable development progresses.md",
-    "未命名 1.md",
-    "未命名 2.md",
-    "第三纪大纲请看这里.md",
-    "Persons/One of celestial body",
-    "40 - Obsidian/附件/Andteas·Korenkarth-20260531172534458.webp",
-    "40 - Obsidian/附件/第三纪·oise星·现代禁忌-20260527234058448.webp",
-    "photo/主页用/andteas.png",
-    "未命名 2.base",
-    "未命名.base",
-    "未命名 1.base",
-    "40 - Obsidian/附件/andteas 1.webp",
-    "40 - Obsidian/附件/EFPRMINOS-20260516210511899.webp",
-    "photo/主页用/00. 主页-20260227144040890.webp",
-    "photo/主页用/航海、契约与商业之神-20241003163337280.webp",
-    "40 - Obsidian/img/引言.jpg",
-    "40 - Obsidian/img/library.gif",
+    "40 - Obsidian/主页/00. 文件管理.md",
     "40 - Obsidian/img/PaperBell.jpg",
-    "Persons/GOD/Γκουρενμπιάτερ",
-    "photo/主页用",
-    "photo",
-    "Persons/GOD",
-    "00 - 每日日记/DailyNote",
-    "00 - 每日日记"
+    "40 - Obsidian/img/library.gif"
   ]
 }

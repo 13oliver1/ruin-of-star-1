@@ -17,5 +17,15 @@
   "newFileLocation": "folder",
   "newFileFolderPath": "Cards/Concepts",
   "defaultViewMode": "preview",
-  "readableLineLength": true
+  "readableLineLength": true,
+  "vimMode": false,
+  "strictLineBreaks": false,
+  "autoConvertHtml": true,
+  "useTab": true,
+  "foldIndent": true,
+  "foldHeading": true,
+  "showIndentGuide": true,
+  "smartIndentList": true,
+  "autoPairMarkdown": true,
+  "autoPairBrackets": true
 }

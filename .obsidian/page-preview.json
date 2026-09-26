@@ -1,4 +1,16 @@
 {
   "preview": true,
-  "editor": false
+  "editor": false,
+  "thino": true,
+  "recent-files": true,
+  "tag-wrangler:tag-pane": true,
+  "obsidian-projects": true,
+  "graph": true,
+  "bases": true,
+  "outline": true,
+  "bookmarks": true,
+  "properties": true,
+  "file-explorer": true,
+  "tab-header": true,
+  "search": true
 }

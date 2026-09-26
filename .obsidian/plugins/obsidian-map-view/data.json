@@ -41,7 +41,7 @@
     }
   ],
   "zoomOnGoFromNote": 15,
-  "autoZoom": false,
+  "autoZoom": true,
   "markerClickBehavior": "replaceCurrent",
   "markerCtrlClickBehavior": "dedicatedPane",
   "markerMiddleClickBehavior": "dedicatedTab",

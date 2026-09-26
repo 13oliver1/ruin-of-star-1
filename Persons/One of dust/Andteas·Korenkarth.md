@@ -1,10 +1,17 @@
 ---
 name: Andteas·Korenkarth
+<<<<<<< HEAD
+othername: 安提斯-克伦卡特
+gender: 男
+ethnicity: 人类
+time: "#第三纪"
+=======
 othername:
   - 安提斯-克伦卡特
 gender: 男
 ethnicity: 人类
 time: 第三纪
+>>>>>>> 1935f1bfdf240861a89b6baa910f50db71738663
 birthday:
 deathday:
 height: 183
@@ -13,6 +20,70 @@ lover: 伊莉弥
 family: 阿斯特利斯（母）
 所属国: 合众国
 角色编号: 1
+<<<<<<< HEAD
+简介:
+职业:
+tags: oc
+banner:
+banner_icon:
+following_date: 2026-03-10
+---
+
+## 基本信息
+````ad-flex
+<div>
+
+
+**<span style="font-size: 10px; color: “#888888 ”;">`=this.角色编号`</span></font>**
+**<span style="font-size: 20px; color: “#888888">▪ `=this.name` <span style="font-size: 10px;">`=this.othername` **
+`=this.ethnicity`  `=this.time`
+
+**<span style="font-size: 12px; color: “#888888 ”;"> 📅`=this.birthday`</span></font><span style="font-size: 12px; color: “#888888 ”;"> -`=this.deathday`</span></font>**
+
+**<span style="font-size: 14px; color: “#888888 ”;">性  别 | </span></font>_<span style="font-size: 14px; color: “#888888 ”;">`=(this.gender)`</span></font>_**
+**<span style="font-size: 14px; color: “#888888 ”;">种  族 | </span></font>_<span style="font-size: 14px; color: “#888888 ”;">`=(this.ethnicity)`</span></font>_**
+**<span style="font-size: 14px; color: “#888888 ”;">职  业 | </span></font>_<span style="font-size: 14px; color: “#888888 ”;">`=(this.职业)`</span></font>_**
+**<span style="font-size: 14px; color: “#888888 ”;">所属国 | </span></font>_<span style="font-size: 14px; color: “#888888 ”;">`=(this.所属国)`</span></font>_**
+**<span style="font-size: 14px; color: “#888888 ”;">家  人 | </span></font>_<span style="font-size: 14px; color: “#888888 ”;">`=(this.family)`</span></font>_**
+**<span style="font-size: 14px; color: “#888888 ”;">爱  人 | </span></font>_<span style="font-size: 14px; color: “#888888 ”;">`=(this.lover)`</span></font>_**
+**<span style="font-size: 14px; color: “#888888 ”;">特  性 | </span></font>_<span style="font-size: 14px; color: “#888888 ”;">`=(this.特点)`</span></font>_**
+**<span style="font-size: 14px; color: “#888888 ”;">爱  好 | </span></font>_<span style="font-size: 14px; color: “#888888 ”;">`=(this.爱好)`</span></font>_**
+
+
+</div>
+
+<div>
+<br>
+
+```dataviewjs
+dv.el("div", `<img src="${dv.current().photo}" >`);
+```
+
+
+</div>
+
+
+
+````
+<br>
+
+````ad-flex
+<div>
+
+**<span style="font-size: 16px; color: “#888888 ”;">备 注 </span></font>**
+ _<span style="font-size: 14px; color: “#888888 ”;">`=(this.备注)` </span></font>_
+ 
+**<span style="font-size: 16px; color: “#888888 ”;">简 介 </span></font>**
+
+ _<span style="font-size: 14px; color: “#888888 ”;">`=(this.简介)` </span></font>_
+ 
+ </div>
+````
+## 研究兴趣
+
+---
+
+=======
 简介: 测试
 职业:
   - 测试
@@ -274,6 +345,7 @@ container.innerHTML = `
 + [小标题]
 + [内容]
 ```
+>>>>>>> 1935f1bfdf240861a89b6baa910f50db71738663
 ## 相关事件
 
 ```dataviewjs
@@ -292,7 +364,11 @@ dv.pages(`#paper`)
 )
 ```
 
+<<<<<<< HEAD
+## 时间线
+=======
 ## 想法
+>>>>>>> 1935f1bfdf240861a89b6baa910f50db71738663
 
 ```dataviewjs
 

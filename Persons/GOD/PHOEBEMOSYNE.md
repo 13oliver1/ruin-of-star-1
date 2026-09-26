@@ -1,13 +1,32 @@
 ---
 name: PHOEBEMOSYNE
+<<<<<<< HEAD
+othername: 福柏墨绪 阿奇亚
+=======
 othername:
   - 福柏墨绪 阿奇亚
   - 安奇多
+>>>>>>> 1935f1bfdf240861a89b6baa910f50db71738663
 gender: 无
 ethnicity: 神
 time: 第一纪
 birthday:
 deathday:
+<<<<<<< HEAD
+象征: 
+height: 
+photo:
+lover: 
+family: 
+角色编号:
+简介:
+备注: 
+职业: 
+特点: 
+爱好: 
+权柄: 
+tags: oc
+=======
 象征:
 height:
 photo:
@@ -23,12 +42,85 @@ family:
 tags:
   - oc
   - 神
+>>>>>>> 1935f1bfdf240861a89b6baa910f50db71738663
 banner:
 banner_icon:name: 2026-04-07
 following_date: 2026-04-07
 ---
 
 ## 基本信息
+<<<<<<< HEAD
+
+````ad-flex
+<div>
+
+
+**<span style="font-size: 10px; color: “#888888 ”;">`=this.角色编号`</span></font>**
+**<span style="font-size: 20px; color: “#888888">▪ `=this.name` <span style="font-size: 10px;">`=this.othername` **
+`=this.ethnicity`  `=this.time`
+
+**<span style="font-size: 12px; color: “#888888 ”;"> 📅`=this.birthday`</span></font><span style="font-size: 12px; color: “#888888 ”;"> -`=this.deathday`</span></font>**
+
+**<span style="font-size: 14px; color: “#888888 ”;">性  别 | </span></font>_<span style="font-size: 14px; color: “#888888 ”;">`=(this.gender)`</span></font>_**
+**<span style="font-size: 14px; color: “#888888 ”;">种  族 | </span></font>_<span style="font-size: 14px; color: “#888888 ”;">`=(this.ethnicity)`</span></font>_**
+**<span style="font-size: 14px; color: “#888888 ”;">身  高 | </span></font>_<span style="font-size: 14px; color: “#888888 ”;">`=(this.height)`</span></font>_**
+**<span style="font-size: 14px; color: “#888888 ”;">职  业 | </span></font>_<span style="font-size: 14px; color: “#888888 ”;">`=(this.职业)`</span></font>_**
+**<span style="font-size: 14px; color: “#888888 ”;">所属国 | </span></font>_<span style="font-size: 14px; color: “#888888 ”;">`=(this.所属国)`</span></font>_**
+**<span style="font-size: 14px; color: “#888888 ”;">家  人 | </span></font>_<span style="font-size: 14px; color: “#888888 ”;">`=(this.family)`</span></font>_**
+**<span style="font-size: 14px; color: “#888888 ”;">爱  人 | </span></font>_<span style="font-size: 14px; color: “#888888 ”;">`=(this.lover)`</span></font>_**
+**<span style="font-size: 14px; color: “#888888 ”;">特  性 | </span></font>_<span style="font-size: 14px; color: “#888888 ”;">`=(this.特点)`</span></font>_**
+**<span style="font-size: 14px; color: “#888888 ”;">爱  好 | </span></font>_<span style="font-size: 14px; color: “#888888 ”;">`=(this.爱好)`</span></font>_**
+**<span style="font-size: 14px; color: “#888888 ”;">权 柄 | </span></font>_<span style="font-size: 14px; color: “#888888 ”;">`=(this.权柄)`</span></font>_**
+
+</div>
+<div>
+<br>
+
+```dataviewjs
+dv.el("div", `<img src="${dv.current().photo}" >`);
+```
+
+
+</div>
+
+
+````
+<br>
+
+````ad-flex
+<div>
+
+**<span style="font-size: 16px; color: “#888888 ”;">备 注 </span></font>**
+ _<span style="font-size: 14px; color: “#888888 ”;">`=(this.备注)` </span></font>_
+ 
+**<span style="font-size: 16px; color: “#888888 ”;">简 介 </span></font>**
+
+ _<span style="font-size: 14px; color: “#888888 ”;">`=(this.简介)` </span></font>_
+
+</div>
+
+````
+
+## 时间线
+````col
+```col-md
+flexGrow=0.2
+===
+**<font color="#5f497a">0000年</font>**
+**<font color="#5f497a">0000年</font>**
+**<font color="#5f497a">0000年</font>**
+**<font color="#5f497a">0000年</font>**
+```
+```col-md
+*<span style="font-size: 15px; color: “#888888 ”;">出生</span></font>*
+*<span style="font-size: 15px; color: “#888888 ”;">父母死亡</span></font>*
+*<span style="font-size: 15px; color: “#888888 ”;">在？？？组织资助下开始上学</span></font>*
+*<span style="font-size: 15px; color: “#888888 ”;">在？？？组织资助下开始上学</span></font>*
+```
+````
+---
+
+=======
 ```dataviewjs
 // 增强版角色卡片 - 支持图片（image属性）
 const currentFile = dv.current();
@@ -272,6 +364,7 @@ container.innerHTML = `
 + [小标题]
 + [内容]
 ```
+>>>>>>> 1935f1bfdf240861a89b6baa910f50db71738663
 ## 相关人物/时间线
 
 ```dataviewjs
@@ -290,7 +383,11 @@ dv.pages(`#paper`)
 )
 ```
 
+<<<<<<< HEAD
+## 最新动态
+=======
 ## TIPS
+>>>>>>> 1935f1bfdf240861a89b6baa910f50db71738663
 
 ```dataviewjs
 

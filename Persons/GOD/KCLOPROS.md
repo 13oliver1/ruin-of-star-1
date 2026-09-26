@@ -27,7 +27,11 @@ family: 呃
 
   他在锻造技艺方面有着超越凡人和诸神的技艺，艺术审美也是极佳，导致经常做出一些唯美的东西。\r
 
+<<<<<<< HEAD
+  但他始终无法爱上真正的活物，最后他用各种宝石和金属锻造了自己的子嗣，那是十六个半神，没有性别，外形也可以变换，但是常常以女性的姿态出现。\r
+=======
   但他始终无法爱上真正的活物，最后他用各种宝石和金属锻造了自己的子嗣，那是二十三个机械生命，没有性别，外形也可以变换，但是常常以女性的姿态出现。\r
+>>>>>>> 1935f1bfdf240861a89b6baa910f50db71738663
 
   被奈洛哈特诅咒之后爱上了光明之神的武器。\r
 
@@ -39,13 +43,89 @@ family: 呃
 特点: 无法爱上真正的活物
 爱好: 锻造，裸奔，说教
 权柄: 锻造，艺术，工匠之神，工匠的保护神
+<<<<<<< HEAD
+tags: oc
+=======
 tags:
   - oc
   - 神
+>>>>>>> 1935f1bfdf240861a89b6baa910f50db71738663
 banner:
 banner_icon:name: 2026-04-07
 following_date: 2026-04-07
 ---
+<<<<<<< HEAD
+
+## 基本信息
+
+````ad-flex
+<div>
+
+
+**<span style="font-size: 10px; color: “#888888 ”;">`=this.角色编号`</span></font>**
+**<span style="font-size: 20px; color: “#888888">▪ `=this.name` <span style="font-size: 10px;">`=this.othername` **
+`=this.ethnicity`  `=this.time`
+
+**<span style="font-size: 12px; color: “#888888 ”;"> 📅`=this.birthday`</span></font><span style="font-size: 12px; color: “#888888 ”;"> -`=this.deathday`</span></font>**
+
+**<span style="font-size: 14px; color: “#888888 ”;">性  别 | </span></font>_<span style="font-size: 14px; color: “#888888 ”;">`=(this.gender)`</span></font>_**
+**<span style="font-size: 14px; color: “#888888 ”;">种  族 | </span></font>_<span style="font-size: 14px; color: “#888888 ”;">`=(this.ethnicity)`</span></font>_**
+**<span style="font-size: 14px; color: “#888888 ”;">职  业 | </span></font>_<span style="font-size: 14px; color: “#888888 ”;">`=(this.职业)`</span></font>_**
+**<span style="font-size: 14px; color: “#888888 ”;">身  高 | </span></font>_<span style="font-size: 14px; color: “#888888 ”;">`=(this.height)`</span></font>_**
+**<span style="font-size: 14px; color: “#888888 ”;">所属国 | </span></font>_<span style="font-size: 14px; color: “#888888 ”;">`=(this.所属国)`</span></font>_**
+**<span style="font-size: 14px; color: “#888888 ”;">家  人 | </span></font>_<span style="font-size: 14px; color: “#888888 ”;">`=(this.family)`</span></font>_**
+**<span style="font-size: 14px; color: “#888888 ”;">爱  人 | </span></font>_<span style="font-size: 14px; color: “#888888 ”;">`=(this.lover)`</span></font>_**
+**<span style="font-size: 14px; color: “#888888 ”;">特  性 | </span></font>_<span style="font-size: 14px; color: “#888888 ”;">`=(this.特点)`</span></font>_**
+**<span style="font-size: 14px; color: “#888888 ”;">爱  好 | </span></font>_<span style="font-size: 14px; color: “#888888 ”;">`=(this.爱好)`</span></font>_**
+**<span style="font-size: 14px; color: “#888888 ”;">权 柄 | </span></font>_<span style="font-size: 14px; color: “#888888 ”;">`=(this.权柄)`</span></font>_**
+
+</div>
+<div>
+<br>
+
+```dataviewjs
+dv.el("div", `<img src="${dv.current().photo}" >`);
+```
+
+
+</div>
+
+
+````
+<br>
+
+````ad-flex
+<div>
+
+**<span style="font-size: 16px; color: “#888888 ”;">备 注 </span></font>**
+ _<span style="font-size: 14px; color: “#888888 ”;">`=(this.备注)` </span></font>_
+ 
+**<span style="font-size: 16px; color: “#888888 ”;">简 介 </span></font>**
+
+ _<span style="font-size: 14px; color: “#888888 ”;">`=(this.简介)` </span></font>_
+
+</div>
+
+````
+
+## 时间线
+````col
+```col-md
+flexGrow=0.2
+===
+**<font color="#5f497a">0000年</font>**
+**<font color="#5f497a">0000年</font>**
+**<font color="#5f497a">0000年</font>**
+**<font color="#5f497a">0000年</font>**
+```
+```col-md
+*<span style="font-size: 15px; color: “#888888 ”;">出生</span></font>*
+*<span style="font-size: 15px; color: “#888888 ”;">父母死亡</span></font>*
+*<span style="font-size: 15px; color: “#888888 ”;">在？？？组织资助下开始上学</span></font>*
+*<span style="font-size: 15px; color: “#888888 ”;">在？？？组织资助下开始上学</span></font>*
+```
+````
+=======
 ## 基本信息
 ```dataviewjs
 // 增强版角色卡片 - 支持图片（image属性）
@@ -347,6 +427,7 @@ container.innerHTML = `
 + [小标题]
 + [内容]
 ```
+>>>>>>> 1935f1bfdf240861a89b6baa910f50db71738663
 ---
 
 ## 相关人物/时间线
@@ -367,7 +448,11 @@ dv.pages(`#paper`)
 )
 ```
 
+<<<<<<< HEAD
+## 最新动态
+=======
 ## TIPS
+>>>>>>> 1935f1bfdf240861a89b6baa910f50db71738663
 
 ```dataviewjs
 

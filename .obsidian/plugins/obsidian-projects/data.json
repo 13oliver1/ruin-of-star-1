@@ -9,13 +9,8 @@
         "status": {
           "options": [
             "计划中",
-            "进行中",
-            "已完成",
             "已归档"
           ]
-        },
-        "collaborators": {
-          "richText": true
         }
       },
       "defaultName": "",
@@ -35,12 +30,24 @@
       "views": [
         {
           "config": {
+            "groupByField": "status",
             "includeFields": [
               "url",
               "start",
               "workload"
             ],
-            "groupByField": "name"
+            "columns": {
+              "未设置状态": {
+                "weight": 0
+              },
+              "计划中": {
+                "weight": 1,
+                "records": []
+              },
+              "已归档": {
+                "weight": 2
+              }
+            }
           },
           "filter": {
             "conjunction": "and",
@@ -138,18 +145,50 @@
         },
         {
           "config": {
-            "coverField": "",
-            "fitStyle": "contain",
-            "includeFields": []
+            "fieldConfig": {
+              "path": {
+                "hide": true
+              },
+              "author": {
+                "hide": true
+              },
+              "banner": {
+                "hide": true
+              },
+              "banner_icon": {
+                "hide": true
+              },
+              "cover": {
+                "hide": true
+              },
+              "date": {
+                "hide": true
+              },
+              "douban_url": {
+                "hide": true
+              },
+              "duty": {
+                "hide": true
+              },
+              "isbn": {
+                "hide": true
+              },
+              "end": {
+                "hide": true
+              },
+              "name": {
+                "hide": true
+              }
+            }
           },
           "filter": {
             "conjunction": "and",
             "conditions": [
               {
                 "field": "tags",
-                "operator": "has-any-of",
+                "operator": "has-all-of",
                 "enabled": true,
-                "value": "[\"#oc\"]"
+                "value": "[\"oc\"]"
               }
             ]
           },
@@ -159,9 +198,9 @@
           "sort": {
             "criteria": []
           },
-          "id": "efd5796f-f490-4316-98d0-b8afd917bc60",
-          "name": "cesh",
-          "type": "gallery"
+          "id": "1be2b2cb-5c35-4841-b44b-d356f3293251",
+          "name": "测试",
+          "type": "table"
         }
       ],
       "id": "4244e4c7-fbb9-4ca5-a794-1a557a1ad506",
@@ -253,7 +292,19 @@
           },
           "filter": {
             "conjunction": "and",
-            "conditions": []
+            "conditions": [
+              {
+                "field": "path",
+                "operator": "not-contains",
+                "enabled": true,
+                "value": "日记"
+              },
+              {
+                "field": "longform",
+                "operator": "is-checked",
+                "enabled": false
+              }
+            ]
           },
           "colors": {
             "conditions": [
