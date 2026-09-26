@@ -11,15 +11,17 @@
             "id": "09485baf3a99e2db",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "Inputs/Zotero/安南诺萨.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": false
+                "file": "大纲.canvas",
+                "viewState": {
+                  "x": -38.5,
+                  "y": -720,
+                  "zoom": 0
+                }
               },
-              "icon": "lucide-file",
-              "title": "安南诺萨"
+              "icon": "lucide-layout-dashboard",
+              "title": "大纲"
             }
           },
           {
@@ -63,7 +65,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "文件列表"
@@ -306,9 +310,9 @@
   },
   "active": "09485baf3a99e2db",
   "lastOpenFiles": [
-    "大纲.canvas",
     "40 - Obsidian/主页/00. 主页.md",
     "Inputs/Zotero/安南诺萨.md",
+    "大纲.canvas",
     "Persons/GOD/GURENBATE.md",
     "Persons/GOD/KCLOPROS.md",
     "Persons/GOD/PHOEBEMOSYNE.md",
