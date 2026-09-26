@@ -27,7 +27,11 @@ family: 呃
 
   他在锻造技艺方面有着超越凡人和诸神的技艺，艺术审美也是极佳，导致经常做出一些唯美的东西。\r
 
+<<<<<<< HEAD
   但他始终无法爱上真正的活物，最后他用各种宝石和金属锻造了自己的子嗣，那是十六个半神，没有性别，外形也可以变换，但是常常以女性的姿态出现。\r
+=======
+  但他始终无法爱上真正的活物，最后他用各种宝石和金属锻造了自己的子嗣，那是二十三个机械生命，没有性别，外形也可以变换，但是常常以女性的姿态出现。\r
+>>>>>>> 1935f1bfdf240861a89b6baa910f50db71738663
 
   被奈洛哈特诅咒之后爱上了光明之神的武器。\r
 
@@ -39,11 +43,18 @@ family: 呃
 特点: 无法爱上真正的活物
 爱好: 锻造，裸奔，说教
 权柄: 锻造，艺术，工匠之神，工匠的保护神
+<<<<<<< HEAD
 tags: oc
+=======
+tags:
+  - oc
+  - 神
+>>>>>>> 1935f1bfdf240861a89b6baa910f50db71738663
 banner:
 banner_icon:name: 2026-04-07
 following_date: 2026-04-07
 ---
+<<<<<<< HEAD
 
 ## 基本信息
 
@@ -114,6 +125,309 @@ flexGrow=0.2
 *<span style="font-size: 15px; color: “#888888 ”;">在？？？组织资助下开始上学</span></font>*
 ```
 ````
+=======
+## 基本信息
+```dataviewjs
+// 增强版角色卡片 - 支持图片（image属性）
+const currentFile = dv.current();
+const filePath = currentFile.file.path;
+const frontmatter = app.metadataCache.getCache(filePath)?.frontmatter || {};
+
+function getValue(attr, defaultValue = '-') {
+    let val = frontmatter[attr];
+    if (val === undefined || val === null) return defaultValue;
+    if (Array.isArray(val)) return val.join(', ');
+    return val;
+}
+
+function formatDate(value) {
+    if (!value || value === '-') return '-';
+    if (value instanceof Date) return value.toLocaleDateString();
+    const date = new Date(value);
+    if (!isNaN(date.getTime())) return date.toLocaleDateString();
+    return value;
+}
+
+function escapeHtml(str) {
+    if (!str) return '';
+    return str.replace(/[&<>]/g, function(m) {
+        if (m === '&') return '&amp;';
+        if (m === '<') return '&lt;';
+        if (m === '>') return '&gt;';
+        return m;
+    });
+}
+
+// 读取属性
+const name = getValue('name', '未命名');
+const gender = getValue('gender');
+const race = getValue('ethnicity');
+const time= getValue('time', '-');
+const birthday = getValue('birthday');
+const deathday = getValue('deathday');
+const like = getValue('象征');
+const height = getValue('height', '-');
+const lover = getValue('lover');
+const family = getValue('family');
+const roleId = getValue('角色编号', '-');
+const description = getValue('简介', '暂无简介');
+const ps = getValue('备注', '暂无备注');
+const traits = getValue('特点');
+const occupation = getValue('职业');
+const hobbies = getValue('爱好');
+const othername = getValue('othername', '-');
+const power = getValue('权柄', '-');
+let imageRaw = getValue('photo', null);
+if (imageRaw === '-') imageRaw = null;
+
+// 处理图片路径（Obsidian内部链接或外部URL）
+let imageHtml = '';
+if (imageRaw) {
+    // 尝试提取内部链接路径 [[xxx.png]]
+    let imgPath = imageRaw;
+    const internalMatch = imageRaw.match(/\[\[([^\[\]]+)\]\]/);
+    if (internalMatch) {
+        imgPath = internalMatch[1];
+    }
+    // 简单判断是否为URL
+    if (imgPath.startsWith('http://') || imgPath.startsWith('https://')) {
+        imageHtml = `<img src="${escapeHtml(imgPath)}" class="card-image" alt="avatar" style="width:100%; height:100%; object-fit:cover; border-radius:50%;">`;
+    } else {
+        // Obsidian内部图片，需要通过getResourcePath
+        const imageFile = app.metadataCache.getFirstLinkpathDest(imgPath, filePath);
+        if (imageFile) {
+            const resourcePath = app.vault.getResourcePath(imageFile);
+            imageHtml = `<img src="${resourcePath}" class="card-image" alt="avatar" style="width:100%; height:100%; object-fit:cover; border-radius:50%;">`;
+        } else {
+            imageHtml = `<div class="avatar-placeholder">${escapeHtml(name.charAt(0).toUpperCase() || '?')}</div>`;
+        }
+    }
+} else {
+    imageHtml = `<div class="avatar-placeholder">${escapeHtml(name.charAt(0).toUpperCase() || '?')}</div>`;
+}
+
+// 构建卡片HTML
+const container = dv.container.createDiv();
+container.style.margin = '1rem 0';
+
+const style = `
+.character-card {
+    border: 1px solid var(--background-modifier-border);
+    border-radius: 16px;
+    padding: 1.5rem;
+    background: var(--background-primary);
+    transition: box-shadow 0.2s ease;
+}
+.character-card:hover {
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+.card-header {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    margin-bottom: 1.8rem;
+    flex-wrap: wrap;
+}
+.avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: var(--background-secondary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    flex-shrink: 0;
+    border: 1px solid var(--background-modifier-border);
+}
+.avatar-placeholder {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: var(--text-muted);
+}
+.card-image {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.name-area h1 {
+    font-size: 1.9rem;
+    font-weight: 600;
+    margin: 0 0 0.25rem 0;
+    line-height: 1.2;
+    color: var(--text-normal);
+}
+.name-area .sub {
+    font-size: 0.85rem;
+    color: var(--text-muted);
+}
+.attr-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 1rem 1.5rem;
+    margin-bottom: 1.8rem;
+    border-top: 1px solid var(--background-modifier-border);
+    padding-top: 1.5rem;
+}
+.attr-item {
+    display: flex;
+    align-items: baseline;
+    flex-wrap: wrap;
+    font-size: 0.9rem;
+}
+.attr-label {
+    font-weight: 500;
+    width: 70px;
+    flex-shrink: 0;
+    font-size: 0.9rem;
+    color: var(--text-muted);
+}
+.attr-value {
+    font-size: 1rem;
+    color: var(--text-normal);
+    word-break: break-word;
+    flex: 1;
+}
+.description-section {
+    border-top: 1px solid var(--background-modifier-border);
+    padding-top: 1.2rem;
+    margin-top: 0.2rem;
+}
+.description-label {
+    font-weight: 500;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    color: var(--text-normal);
+}
+.description-content {
+    font-size: 0.95rem;
+    line-height: 1.5;
+    color: var(--text-normal);
+    white-space: pre-wrap;
+    background: var(--background-secondary);
+    padding: 0.8rem 1rem;
+    border-radius: 12px;
+    margin: 0;
+}
+@media (max-width: 600px) {
+    .character-card {
+        padding: 1rem;
+    }
+    .attr-grid {
+        grid-template-columns: 1fr;
+    }
+    .attr-label {
+        width: 65px;
+    }
+}
+`;
+
+container.innerHTML = `
+<style>${style}</style>
+<div class="character-card">
+    <div class="card-header">
+        <div class="avatar">
+            ${imageHtml}
+        </div>
+        <div class="name-area">
+            <h1>${escapeHtml(name)}</h1>
+            <div class="sub">NO.${escapeHtml(roleId)}</div>
+        </div>
+    </div>
+    <div class="attr-grid">
+           <div class="attr-item"><span class="attr-label">身高</span><span class="attr-value">${escapeHtml(height)}</span></div>
+        <div class="attr-item"><span class="attr-label">别名</span><span class="attr-value">${escapeHtml(othername)}</span></div>
+        <div class="attr-item"><span class="attr-label">性别</span><span class="attr-value">${escapeHtml(gender)}</span></div>
+        <div class="attr-item"><span class="attr-label">特性</span><span class="attr-value">${escapeHtml(traits)}</span></div>
+        <div class="attr-item"><span class="attr-label">种族</span><span class="attr-value">${escapeHtml(race)}</span></div>
+        <div class="attr-item"><span class="attr-label">职业</span><span class="attr-value">${escapeHtml(occupation)}</span></div>
+        <div class="attr-item"><span class="attr-label">爱好</span><span class="attr-value">${escapeHtml(hobbies)}</span></div>
+        <div class="attr-item"><span class="attr-label">爱人</span><span class="attr-value">${escapeHtml(lover)}</span></div>
+        <div class="attr-item"><span class="attr-label">生日</span><span class="attr-value">${escapeHtml(formatDate(birthday))}</span></div>
+        <div class="attr-item"><span class="attr-label">忌日</span><span class="attr-value">${escapeHtml(formatDate(deathday))}</span></div>
+        <div class="attr-item"><span class="attr-label">家人</span><span class="attr-value">${escapeHtml(family)}</span></div>
+        <div class="attr-item"><span class="attr-label">权柄</span><span class="attr-value">${escapeHtml(power)}</span></div>
+    </div>
+    <div class="description-section">
+        <div class="description-label">简介</div>
+        <div class="description-content">${escapeHtml(description).replace(/\n/g, '<br>')}</div>
+    </div>
+</div>
+`;
+```
+```tendency
+{
+  "person": "",
+  "domains": {
+    "政治": {
+      "革命-改良": 3,
+      "科学-空想": -3,
+      "集权-分权": 3,
+      "国际-民族": 3,
+      "党派-公会": 2,
+      "生产-生态": -3,
+      "保守-进步": 3
+    },
+    "性格": {
+      "外向-内向": 1,
+      "谦虚-傲慢": 2,
+      "理性-感性": 2,
+      "严肃-轻浮": 1,
+      "共情-冷血": 1,
+      "利他-利己": -1,
+      "迟钝-敏锐": 1
+    },
+    "社交": {
+      "利他-利己": -2,
+      "外向-内向": -2,
+      "自信-自卑": -2,
+      "睚眦-豁达": -1,
+      "敏感-迟钝": 3,
+      "好事-避事": 2,
+      "偏激-随和": -2
+    },
+    "饮食": {
+      "超甜-厌甜": -3,
+      "超苦-厌苦": -3,
+      "超酸-厌酸": -3,
+      "超辣-厌辣": -3,
+      "超咸-厌咸": -3,
+      "浓香-清淡": -3,
+      "新鲜-腌制": 3
+    },
+    "身体": {
+      "平衡-失调": -3,
+      "举鼎-无力": -3,
+      "明眸-失明": -3,
+      "敏锐-失聪": -2,
+      "强健-体弱": -3,
+      "超忆-失忆": -2,
+      "暴食-厌食": -3
+    },
+    "生活": {
+      "奢靡-节省": 1,
+      "朴素-时尚": -3,
+      "正常-异常": -3,
+      "厨神-蹩脚": 0,
+      "高知-文盲": -3,
+      "高雅-粗鄙": 1,
+      "叛逆-守律": -2
+    }
+  }
+}
+```
+## 时间线
+```timeline
+[line-3, body-2]
++ 第x纪</br> [????]年
++ [小标题]
++ [内容]
+
++ [????]年
++ [小标题]
++ [内容]
+```
+>>>>>>> 1935f1bfdf240861a89b6baa910f50db71738663
 ---
 
 ## 相关人物/时间线
@@ -134,7 +448,11 @@ dv.pages(`#paper`)
 )
 ```
 
+<<<<<<< HEAD
 ## 最新动态
+=======
+## TIPS
+>>>>>>> 1935f1bfdf240861a89b6baa910f50db71738663
 
 ```dataviewjs
 

@@ -2,15 +2,23 @@
   "version": 4,
   "homepages": {
     "Main Homepage": {
-      "version": 2,
-      "hasRibbonIcon": true,
-      "openMode": "Replace all open notes",
-      "view": "Reading view",
-      "refreshDataview": false,
       "value": "主工作区",
       "kind": "Workspace",
+      "openOnStartup": true,
+      "openMode": "Replace all open notes",
+      "manualOpenMode": "Keep open notes",
+      "view": "Reading view",
+      "revertView": true,
+      "openWhenEmpty": false,
+      "refreshDataview": false,
+      "autoCreate": false,
+      "autoScroll": false,
+      "pin": false,
       "commands": [],
-      "openOnStartup": true
+      "alwaysApply": false,
+      "hideReleaseNotes": false,
+      "version": 2,
+      "hasRibbonIcon": true
     }
   },
   "separateMobile": false

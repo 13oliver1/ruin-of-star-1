@@ -12,10 +12,11 @@
     "downscalePercent": 100
   },
   "attachmentFolderPath": "40 - Obsidian/附件",
-  "showInlineTitle": false,
+  "showInlineTitle": true,
   "propertiesInDocument": "visible",
   "newFileLocation": "folder",
   "newFileFolderPath": "Cards/Concepts",
   "defaultViewMode": "preview",
-  "readableLineLength": true
+  "readableLineLength": true,
+  "vimMode": false
 }

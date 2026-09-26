@@ -1,6 +1,10 @@
 {
   "height": null,
+<<<<<<< HEAD
   "style": "solid",
+=======
+  "style": "gradient",
+>>>>>>> 1935f1bfdf240861a89b6baa910f50db71738663
   "showInInternalEmbed": true,
   "internalEmbedHeight": null,
   "showInPreviewEmbed": true,
